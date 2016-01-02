@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head> 
+<meta charset="utf-8"/>
+<title>WEIGHT-TOOL</title> 
+</head>
+<body>
+<section>
+<fieldset>
+<legend>POUNDS TO KILOGRAM CONVERTER:</legend>
+<h4 >&nbsp;&nbsp;WEIGHT CONVERTER  SCALE</h4>
+<script type="text/javascript">
+function convert()
+{
+    if(document.getElementById("kg").value)
+    {
+    document.getElementById("lb").value = (document.getElementById("kg").value )*2.2;
+    }
+    else
+    {
+     document.getElementById("kg").value = (document.getElementById("lb").value)/2.2;
+    }
+}
+function reset()
+{   
+document.getElementById("lb").value = "";   
+document.getElementById("kg").value = "";
+}
+</script>
+<br>	
+POUNDS:<input  type=text id="lb" onfocus="reset()" placeholder=  "Lb" value="0"  />Lb <br><br><input  id="cs1" type=button value="convert" onclick="convert()" /><br><br>&nbsp;
+ <label><br>KILOGRAM:<input name="cm" type=text id="kg" placeholder="Kg" onfocus="reset()" />Kg</label>
+</section>
+
+<section>
+ <!---->
+</body>
+</html>

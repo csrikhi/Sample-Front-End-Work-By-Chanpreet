@@ -1,0 +1,335 @@
+* {
+	maring: 0;
+	padding: 0;
+}
+
+.hide {
+	display: none;
+}
+.heading{
+	
+	font-weight: bold;
+	font-size: 20px;
+	font-family: cursive;
+	float: left;
+	margin-top: -9px;
+}
+body {	
+	font-size: 100%;
+	margin: 1px;
+	background: #fff;
+	color: #fff;
+}
+.container{
+
+	border:1px dotted red;
+	//width:900px;
+
+}
+.pastingArea{
+	
+	margin-top:-16px;
+	background:#0066CC;
+	min-height: 600px;
+	max-height:auto;
+
+
+}
+#nav{
+	background:#003366;
+	display:inline-block;
+	width:100%;
+}
+#newNote{
+	width: 34px;
+	float: left;
+	position: Absolute;
+	margin-left: 4%;
+	left: -37px;
+	top: 14%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.pinned{
+
+	width:20px;
+	height:20px;
+	position:absolute;
+	left:40%;
+	top:-12px;
+	display:block;
+
+}
+/******************************
+ *      C O N T R O L S       *
+ ******************************/
+ #clearAll{
+ 	height: 60px;
+ 	border-radius: 41px;
+ 	margin-right: 40px;
+ 	//margin-top: 10px;
+ 	float:left;
+ 	cursor: pointer;
+
+
+ }
+ #nav img {
+ 	width: 30px;
+ 	height: 30px;
+ 	background: rgba(0, 0, 0, 0);
+ 	
+ }
+
+ #nav img:hover, #nav img:focus {
+ 	-webkit-transform: scale(1.2);  
+ 	-moz-transform: scale(1.2);  
+ 	-o-transform: scale(1.2);  
+ 	position:relative;
+ 	cursor:pointer;
+ }
+
+
+ .settingMenu{
+ 	border:2px solid #fff;
+ 	width:200px;
+ 	height:300px;
+ 	background:#474747;
+ 	position:absolute;
+ 	top: 25%;
+ 	right: 0%;
+ 	//	z-index: -1;
+ 	display:none;
+
+
+
+ }
+ .onOff{
+ 	position: absolute;
+ 	top: 24%;
+ 	width: 8%;
+ 	height: 11%;
+ 	right: 9%;
+ 	z-index: 6;
+ 	transform: rotate(0deg);
+
+ }
+
+
+/************************
+ *      N O T E S       *
+ ************************/
+ ul, li {
+ 	list-style: none;
+ }
+
+ ul {
+ 	overflow: hidden;
+ 	padding: 15px;
+ }
+
+ ul li {
+ 	margin: 15px;
+ 	float: left;
+ 	position: relative;
+ }
+
+ ul li div {
+ 	text-decoration: none;
+ 	color: #000;
+ 	background: #ffc;
+ 	display: block;
+ 	height: 100px;
+ 	width: 150px;
+ 	padding: 10px;
+ 	-moz-box-shadow: 5px 5px 7px rgba(33, 33, 33, 1);
+ 	-webkit-box-shadow: 5px 5px 7px  rgba(33, 33, 33, .7);
+ 	box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+ 	-moz-transition: -moz-transform .15s linear;
+ 	-o-transition: -o-transform .15s linear;
+ 	-webkit-transition: -webkit-transform .15s linear;
+ 	border-style: dotted;
+ }
+
+ ul li div img {
+ 	padding: 1px 3px;
+ 	margin: 10px; 
+ 	position: absolute; 
+ 	top: 0; 
+ 	right: 0;
+ }
+
+ ul li textarea {
+ 	font-family: "helvetica";
+ 	background: rgba(0, 0, 0, 0); /* transparent background */
+ 	resize: none;
+ 	padding: 3px;
+ 	border-style: none;
+ }
+
+ .note-title {
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	height: 30px;
+ 	width: 70%;
+ }
+
+ .note-content {
+ 	font-size:12px;
+ 	height: 56px;
+ 	width: 95%;
+ }
+
+ ul li:nth-child(even) div {  
+ 	-o-transform:rotate(4deg);  
+ 	-webkit-transform:rotate(4deg);  
+ 	-moz-transform:rotate(4deg);  
+ 	position:relative;  
+ 	top:5px;  
+ }
+
+ ul li:nth-child(3n) div {  
+ 	-o-transform:rotate(-3deg);  
+ 	-webkit-transform:rotate(-3deg);  
+ 	-moz-transform:rotate(-3deg);  
+ 	position:relative;  
+ 	top:-5px;  
+ }
+
+ ul li:nth-child(5n) div {  
+ 	-o-transform:rotate(5deg);  
+ 	-webkit-transform:rotate(5deg);  
+ 	-moz-transform:rotate(5deg);  
+ 	position:relative;  
+ 	top:-10px;
+ }
+
+ ul li div:hover, ul li div:focus {  
+ 	-moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+ 	-webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);  
+ 	box-shadow:10px 10px 7px rgba(0,0,0,.7);  
+ 	-webkit-transform: scale(1.25);  
+ 	-moz-transform: scale(1.25);  
+ 	-o-transform: scale(1.25);  
+ 	position:relative;  
+ 	z-index:5;   
+ 	cursor: pointer;
+ }
+
+ /* define 3 different colours for the notes */
+ ul li div.colour1 {
+ 	background: #ffc;
+ }
+ ul li div.colour2 {
+ 	background: #cfc;
+ }
+ ul li div.colour3 {
+ 	background: #ccf;
+ }
+ ul li div.colour4 {
+ 	background: #474747;
+ }
+ ul li div.colour5 {
+ 	background: #fff;
+ }
+ ul#pinnedNotes {
+ 	position: absolute;
+ 	left: 4%;
+ }
+ /*****************************/
+ /*Floating Right Menu*/
+
+ /*****************************/
+ .pushmenu { /*this is the nav*/
+ 	background: #3c3933;
+ 	font-family: Arial, Helvetics, sans-serif;
+ 	width: 240px;
+ 	height: 100%;
+ 	top: 0;
+ 	z-index: 1000;
+ 	position:fixed;
+ }
+
+ .pushmenu h3 {
+ 	color: #cbbfad;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	padding: 15px 20px;
+ 	margin: 0;
+ 	background: #282522;    
+ 	height: 16px;
+ }
+ h1{
+ 	text-align:center;
+
+ }
+ .pushmenu a {
+ 	display: block; /* drops the nav vertically*/
+ 	color: #fff;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	text-decoration: none;
+ 	border-top: 1px solid #56544e;
+ 	border-bottom: 1px solid #312e2a;
+ 	padding: 14px;
+ }
+
+ .pushmenu a:hover {
+ 	background:#00A287;
+ }
+
+ .pushmenu a:active {
+ 	background: #454f5c;
+ 	color: #fff;
+ }
+
+ .pushmenu-right {
+ 	right: -240px;
+
+ }
+
+ .pushmenu-right.pushmenu-open {
+ 	right: 0px;
+ }
+
+ .pushmenu-push {
+ 	overflow-x: hidden;
+ 	position: relative;
+ 	right: 0px;
+ }
+
+ .pushmenu-push-toright {
+ 	right: 240px;
+ }
+
+ /*Transition*/
+ .pushmenu, .pushmenu-push {
+ 	-webkit-transition: all 0.5s ease;
+ 	-moz-transition: all 0.5s ease;
+ 	transition: all 0.5s ease;  
+ }
+
+ #nav_list {
+ 	background: url(http://www.onlywebpro.com/demo/jquery/icon_nav.png) no-repeat left top;
+ 	cursor: pointer;
+ 	height: 27px;
+ 	width: 33px;
+ 	text-indent: -99999em;
+ 	float:right
+ }
+
+ nav-list.active {
+ 	background-position: -33px top;
+ }
+
+ .buttonset {
+ 	background: #00A287;
+ 	height: 16px;
+ 	padding: 10px 20px 20px;
+ }
+
+ section.content {
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	padding: 10px 20px;
+ }
+ /*****************************/

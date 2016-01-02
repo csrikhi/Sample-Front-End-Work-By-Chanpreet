@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Create Order Page</title>
+		<meta charset="utf-8"/>
+		<link rel = "stylesheet" href = "styles/main.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	</head>
+	<body>
+		<div class="main_wrapper">
+			<!--Header and authenticated user Menu Block -->
+			<div class="header">
+				<div class="container">
+					<div class="logo_wrapper">
+						<a href="#"><img src="images/top-header-logo.png" alt="logo image"/></a>
+					</div>
+					<div class = "admin_menu">
+						<ul>
+							<li class = "cart_img"><a href="#"><img src = "images/cart.png" alt = "Cart Image"></a></li>
+							<li class = "menu_hover"><a href="#">ADMIN &#x25BC;</a></li>
+							<li><a href="#">CUSTOMER</a></li>
+							<li class = "menu_hover"><a href="#">COLLEEN KREBS &#x25BC;</a>
+								<ul class = "header_sub_menu sub_menu">
+									<li><a href="#">YOUR PROFILE</a></li>
+									<li><a href="#">CUSTOMER/SHIP-TO-LIST</a></li>
+									<li><a href="#">PASSOWORD CHANGE</a></li>
+									<li><a href="#">ACCOUNT PREFERENCES</a></li>
+									<li><a href="#">YOUR TEMPLATES</a></li>
+								</ul>
+							</li>
+							<li><a href="#">LOG OUT</a></li>
+						</ul>
+					</div>
+				</div>			
+			</div>
+			<!--Header and authenticated user Menu Block ends-->
+			<div class="nav">
+				<div class = "nav_top">
+					<div class="container">
+						<h1 class="page_title">My Celanese</h1> <h1 class="current_page">Account</h1>
+						<div class="search_block">
+							<input type = "text" id = "search" name = "search">|
+							<select>
+								<option># Type </option>
+								<option># type </option>
+								<option># type </option>
+							</select>
+							<button class = "search_btn">SEARCH</button>
+						</div>
+					</div>
+				</div>
+				<!--Navigation Menu Block -->
+				<div class="nav_menu">
+					<div class="container">
+						<ul>
+							<li class = "home_img"><a href="#"><img src="images/home.png" alt="Home Icon"/></a></li>
+							<li><a href="#">DASHBOARD</a></li>
+							<li class = "menu_hover"><a href="#">ORDER &#x25BC;</a>
+								<ul class = "nav_sub_menu sub_menu">
+									<li><a href="#">CREATE ORDER</a></li>
+									<li><a href="#">CHANGE ORDER</a></li>
+									<li><a href="#">CREATE FROM TEMPLATE</a></li>
+								</ul>
+							</li>
+							<li class = "menu_hover"><a href="#">STATUS &#x25BC;</a></li>
+							<li><a href="#">DOCUMENTS</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--Navigation Menu Block ends-->
+			</div>
+			<!-- Content Block -->
+			<div class="content">
+				<div class="container">
+					<div class="order_block">
+						<div class="order_content_block">
+							<h2>BUSINESS SEGMENT</h2>
+							<input type="radio" name = "business"/>Cellulose Derivatives
+							<input type="radio" name = "business"/>Engineered Materials
+							<input type="radio" name = "business"/>Emulsion Polymers
+							<input type="radio" name = "business"/>Eva Polymers
+							<input type="radio" name = "business"/>Food Ingredients 
+							<input type="radio" name = "business"/>Intermediate Chemistry
+						</div>
+						<div class="order_content_block">
+							<h2>SALES ORGANIZATION</h2>
+							<select>
+								<option value="1">Select A Sales Organization</option>
+								<option value="2"></option>
+								<option value="3"></option>
+							</select>
+							<div class = "tooltip" title = "Sample text goes here. Sample text goes here. Sample text goes here.">?</div>
+						</div>
+						<div class="order_content_block">
+							<h2 id = "sales_order">SALES ORDER TYPE</h2>
+							<select>
+								<option value="1">Select A Sales Order Type</option>
+								<option value="2"></option>
+								<option value="3"></option>
+							</select>
+							<div class = "tooltip" title = "Sample text goes here. Sample text goes here. Sample text goes here.">?</div>
+						</div>
+						<div class = "btn_block">
+							<a href = "#">Back</a>
+							<a href = #><button class="login_btn continue_btn">CONTINUE</button></a>
+						</div>
+					</div>
+					<!-- accordian block-->
+					<div class="order_prog_block">
+						<div class = "order_prog_accord">
+							<h4>ORDER PROGRESS</h5>
+						</div>
+						<div class = "order_prog_accord" id = "first_order">
+							<div class="prop_type">
+								<h5 class="order_prop">CUSTOMER</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">BUSINESS SEGMENT</h5><span class = "accord_icon">+</span>
+							</div>
+								<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">SALES ORGANIZATION</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">SALES ORDER TYPE</h5><span class = "accord_icon">+</span>
+							</div>	
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">SHIP-TO-ADDRESS</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">UNLOADING POINT</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">BILL TO PARTY</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">PRODUCT SELECTION</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">SHOPPING CART</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+						<div class = "order_prog_accord">
+							<div class="prop_type">
+								<h5 class="order_prop">FINAL REVIEW</h5><span class = "accord_icon">+</span>
+							</div>
+							<p class="prop_detail">Customer, 123 anyroad, city name, State, Country</p>
+						</div>
+					</div>
+					<!-- accordian block ends-->
+				</div>
+			</div>
+			<!-- Content Block -->
+			<!-- Footer Block -->
+			<div class="footer">
+				<div class="container">
+					<div class="footer_copy">
+						<p>Copyright 2014 Celenese Corporation</p>
+					</div>
+					<div class="footer_links">
+						<ul>
+							<li><a href="#">HELP</a></li>
+							<li><a href="#">MSDS</a></li>
+							<li><a href="#">TERMS AND CONDITIONS</a></li>
+							<li><a href="#">PRIVACY STATEMENT</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Block ends-->
+		</div>
+		<!-- Content Block ends -->
+		<!-- Scripts block-->
+		<script type="text/javascript" src = "scripts/script.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script>
+			$(function() {
+				$( document ).tooltip();
+				 $(".order_prog_accord").on("click",".accord_icon", function () {
+					var parent = $(this).parent().parent();
+					if($(this).text() == "-") {
+						$(this).text("+");
+					} else {
+						$(this).text("-");
+					}
+					parent.find('.prop_detail').slideToggle(500);
+					parent.siblings().find('.prop_detail').slideUp(500);
+					parent.siblings().find(".accord_icon").text("+");
+				});
+				$(".menu_hover").on ("mouseover" ,function () {
+					$(this).find('ul').css('visibility', 'visible');
+					$(this).addClass("highlight_menu");
+				});
+				$(".menu_hover").on ("mouseout" ,function () {
+					$(this).find('ul').css('visibility', 'hidden');
+					$(this).removeClass("highlight_menu");
+				});
+		});
+		</script>
+	</body>
+</html>

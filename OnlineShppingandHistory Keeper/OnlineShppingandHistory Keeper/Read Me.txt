@@ -1,0 +1,30 @@
+Build the pages as per the comps (jpgs)
+All these pages should work in IE9+, latest versions of all browsers
+
+Use 1170px as width of the page container
+
+1. Identify the common components and build them to resuse across the project.
+example: header, footer and so on
+2. Create a global validation and accordian functionality. 
+
+1. Loging page
+a. Need to implement user authentication (should allow admin/admin as username and password)
+b. Validations
+c. static link
+d. After logging in user should redirect to Dashboard page.
+
+2. Dashboard
+a. Build accordians
+b. Build menus (as shown in 02-dashboard with dropdowns.jpg)
+c. Use sprite images for icons
+
+3. Login Management
+a. Use JQuery date picker plugin
+b. Build accordians
+c. Implement individual section validations (this should trigger once save button is clicked)
+d. on cliencking the delete icon, the panel should be removed from the page.
+
+4. Order create
+a. Use info bubble plugin
+b. Build accordians
+
