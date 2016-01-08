@@ -1,0 +1,17 @@
+<script language="JavaScript">
+function calculatewth() {
+var waist = document.wthForm.w.value;
+var hip = document.wthForm.h.value;	
+var finalwst = waist/hip;
+document.wthForm.wth.value = finalwst;
+}
+</script>
+
+<form name="wthForm">
+Your Waist(cm): <input type="text" name="w" size="10"><br />
+Your Hip(cm): <input type="text" name="h" size="10"><br />
+<input type="button" value="Calculate WaistToHip" onClick="calculatewth() "><br />
+Your WaistToHipRatio: <input type="text" name="wth" size="10"><br />
+
+<input type="reset" value="Reset" />
+</form>

@@ -1,0 +1,7 @@
+* {margin: 0; padding: 0; }
+table {  }
+
+#board { padding: 0px; margin: 0 auto; margin-top: 25px; }
+#board tr td { width: 150px; height: 150px; border: 1px solid #1c1c1c; 
+	font-family: Helvetica; text-align: center; font-size: 96px; }
+	#board tr td:hover { background: #e4e4e4; cursor: pointer; }

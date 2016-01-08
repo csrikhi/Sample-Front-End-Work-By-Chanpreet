@@ -1,0 +1,53 @@
+<fieldset>
+<legend>Ideal Weight Calculator:</legend>
+<h4 >&nbsp;&nbsp;Height Weight Scale </h4>
+
+ <!---->
+ <form >
+ HEIGHT:<input  type=text name="height" id="wt1" onChange="convert(this.form);" onfocus="reset()" placeholder=  "feet" value="0"  />Feet <br><br><br><br>&nbsp;
+ <label><br>WEIGHT IN Kg:<input name="weight" id="wt2" type="radio" onClick="convert(this.form);"  class="wt"  />Kg</label>
+ <label><br>WEIGHT IN Pounds:<input name="weight"  id="wt3" onClick="convert(this.form);" type="radio"  class="wt"  />Lb</label>
+ <label><br>WEIGHT :<input name="weight34" type="text"  id="wt4" placeholder="Kg/Lb" onfocus="reset()" /></label>
+</form>
+ <script type="text/javascript">
+
+
+function convert(form)
+{
+ var calweight1;
+ var calweight2;
+ var finalcalweight;
+ var heightvalue;
+ heightvalue=form.height.value;
+if(form.weight[0].checked)
+{ 
+ switch(isNaN(parseInt(heightvalue)))
+  {
+   case 5.0:calweight1= 50+2.3+5.0+1.9;
+    break;
+	case 5.1:
+    calweight1=50+2.3+5.1+3.8;
+    break;
+	case 5.2:
+    calweight1= 50+2.3+5.2+5.4;
+    break;
+	}
+finalcalweight=Math.round(calweight1);
+}
+else if(form.weight[1].checked)
+ {
+  switch(isNaN(parseInt(heightvalue)))
+  {
+   case 5.0:calweight2= 106.0+5.0;
+   break;
+	case 5.1:calweight2= 5.1+112.0;
+   break;
+   case 5.2:
+    calweight2= 5.2 + 118.0;
+	break;
+}	
+finalcalweight=Math.round(calweight2);	
+ }
+ form.weight34.value=finalcalweight;
+}
+ </script>

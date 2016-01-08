@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Canvas-LocalStorage</title>
+    <link rel="stylesheet" type="text/css" href="css/canvas.css" />
+</head>
+
+<body>
+    <header>
+        <h1> CANVAS-WITH-LOCAL STORAGE</h1>
+    </header>
+
+    <section class="canvas-Form">
+
+        <section class="canvas-Display-Area"><!--Drawing the image in Here-->
+            <canvas id="Triangle">
+            </canvas>
+        </section>
+        <section class="Form-Fill-Area">
+            <ul class="form-Input">
+                <li>
+                    <label>Width:
+                        <input type="text" id="width" />Px</label>
+                </li>
+                <li>
+                    <label>Height:
+                        <input type="text" id="height" />Px</label>
+                </li>
+                <li>
+                    <Button id="submit" onclick="formSubmit()">SUBMIT</li>
+                <li>
+                    <Button id="submitclear" onclick="clearLocalStorage()">Clear-Local-Storage</li><!--Clearing the draw area on click -->
+            </ul>
+
+
+        </section>
+
+    </section>
+
+
+    <script type="text/javascript" src="javascript/canvas.js"></script>
+</body>
+
+</html>
