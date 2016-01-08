@@ -1,0 +1,151 @@
+
+.container {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid red;
+    height: 600px;
+    margin: 0 auto;
+    width: 1000px;
+}
+.contactsDisplay {
+    border: 1px solid #335ea8;
+    border-radius: 8px;
+    height: auto;
+    margin: 10% auto 0;
+    width: 350px;
+}
+.header {
+    background: #ededf8 none repeat scroll 0 0;
+    border: 1px solid #ccd1db;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 37px;
+}
+.headingInfo {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 1%;
+    margin-top: 3%;
+}
+.clear {
+    clear: both;
+}
+.footer {
+    background: #ecf1fb none repeat scroll 0 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #809ac9;
+    border-image: none;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    height: 37px;
+}
+.content {
+    display: block;
+    height: 190px;
+    padding-top: 6px;
+}
+.displayController {
+    float: right;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+#displayType {
+    height: 23px;
+    width: 140px;
+}
+#cnameDisplay > li {
+    line-height: 20px;
+    list-style-type: none;
+    position: relative;
+    text-indent: 7px;
+}
+#cnameDisplay > li > a {
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+}
+#cnameDisplay li  ul {
+   
+    background: #efefef none repeat scroll 0 0;
+    border-color: #474747 #474747 #474747 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    display: none;
+    left: 87px;
+    line-height: 20px;
+    list-style-type: none;
+    position: absolute;
+    top: -1px;
+    width: 262px;
+}
+#cnameDisplay > li > ul li {
+    padding-left: 8px;
+}
+#cnameDisplay > li > ul li a {
+    color: blue;
+}
+.icon {
+    left: 68%;
+    position: absolute;
+    top: 3%;
+}
+#cnameDisplay > li a:hover {
+    
+    background: #efefef none repeat scroll 0 0;
+    border-color: #666666;
+    border-image: none;
+    border-top-style: solid solid solid none;
+    border-width: 1px medium;
+    display: block;
+    font-weight: bold;
+}
+.contactName {
+    float: left;
+    margin-left: 1px;
+    width: 87px;
+}
+.contactsDetails {
+    float: left;
+    overflow: hidden;
+    width: 228px;
+}
+#email {
+    display: block;
+    float: left;
+    margin-left: 7%;
+    width: 100px;
+}
+#phoneNo {
+    display: none;
+    float: left;
+    margin-left: 7%;
+}
+#emailList > li {
+    line-height: 20px;
+    list-style-type: none;
+}
+#phonenoList > li {
+    line-height: 20px;
+    list-style-type: none;
+}
+#cnameDisplay > li:hover > ul {
+    display: block;
+}
+#cnameDisplay > li > ul:hover {
+    display: none;
+}
+.textAlignment {
+    display: block;
+}
+#emailList li a{
+color:blue;
+}
+#phonenoList li {
+color:blue;
+
+} 

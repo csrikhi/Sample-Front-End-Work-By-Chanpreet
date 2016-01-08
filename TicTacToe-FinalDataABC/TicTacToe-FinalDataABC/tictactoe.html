@@ -1,0 +1,52 @@
+<!Doctypehtml>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/font-awesome.css"/>
+	<!-- <link rel="stylesheet" type="text/css" href="styles/reset.css"/> -->
+	<link rel="stylesheet" type="text/less" href="styles/tictactoe.less"/>
+</head>
+<body>
+	<!--Container that has all the main data to be displayed-->
+	<div id="container">
+		<div class="gamePad">
+			<div class="header">
+				<div class="well well-sm gameLogo "><h1 class="logoHeading">Tic Tac Toe</h1> </div>
+				<div class="well well-sm newgameHeader">
+					<span class="navHeading">NEW GAME</span>
+				</div>
+			</div>
+			<div class="clearprop"></div>
+			<div class="gameArea">
+				<div class="gameInfo">
+					<h3 class="gameInfoHeading">PLAY</h3>
+					<h3 class="gameRules">Rules</h3>
+					<p class="gameRulesDesc">
+						<span class="subHeading">Tic-tac-toe(or Noughts and crosses,Xs and Os)</span>is a
+						paper-and-pencil game for two players,X and O, who  take turns marking the spaces in 3x3 grid.The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game. 
+					</p>
+				</div>
+				<div class="playZone">
+					<table id='board'>
+						<tr class="tablerow">
+							<td  style='width="150px";height="150px";' class="tableData"></td><td class="tableData"></td><td class="tableData"></td>
+						</tr>
+						<tr class="tablerow">
+							<td class="tableData"></td><td class="tableData"></td><td class="tableData"></td>
+						</tr>
+						<tr class="tablerow">
+							<td class="tableData"></td><td class="tableData"></td><td class="tableData"></td>
+						</tr>
+					</table>
+					<button class="ResetClear">RESET</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="scripts/jquery-2.1.4.js"></script>
+	<script src="scripts/bootstrap.js"></script>
+	<script src="scripts/less.js"></script>
+	<script src="scripts/tictactoe.js"></script>	
+	<script></script>
+</body>
+</html>	

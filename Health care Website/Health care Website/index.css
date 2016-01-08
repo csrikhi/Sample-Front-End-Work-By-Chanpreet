@@ -1,0 +1,198 @@
+﻿{/*Margin Settings default*/
+margin:0px;
+padding:0px;
+}
+
+/*Body-the entire page background color settings*/
+#body1{
+
+background-image:url("http://www.cs.kent.edu/~rbattula/Test2/Images%20Website/Website%20Background.jpg");
+background-color:silver;
+
+}
+/*left side moving  image pannel position,background,image color settings*/
+#marqueecontainer
+{
+background-color:#98afc7;
+margin-left:10px;
+width:0px;
+height:700px;
+border:0px  white;
+
+overflow:hidden;
+
+
+}
+/*Right side moving  image panel position,background,image color settings*/
+#marqueecontainer1{
+background-color:#F2CA85;
+margin-top:-554px;
+margin-left:1108px;
+width:146px;
+height:570px;
+border:0px  white;
+position:relative;
+overflow:hidden;
+
+}
+/*Central panel  where the contents and other item are placed,position,background,image color settings*/
+.d1
+{
+margin-top:-704px;
+margin-left:200px;
+border:0px  white;
+border-radius:3px;
+width:1000px;
+height:700px;
+
+
+}
+.d2
+{
+margin-left:-120px;
+margin-top:-20px;
+height:90px;
+width:1170px;
+  background-image:url("http://www.cs.kent.edu/~rbattula/Test2/Images%20Website/Header 1 Title.png");
+
+text-align:center;
+border:2px double white;
+}
+  /*Rolling content background*/
+.d3
+{
+margin-left:-120px;
+border:0px solid white;
+height:20px;
+width:1174px;
+overflow: hidden;
+padding-top: 0.25em;
+padding-bottom:1.5em;
+white-space:nowrap;
+color:#003399;
+background-image:url("http://www.cs.kent.edu/~rbattula/Test2/Images%20Website/Scrolling 1 Background.jpg");
+font-family:Copperplate Gothic;
+font-weight:Bold;
+font-size:18px;
+}
+#button1.button1:hover{
+background-color:red;
+font-weight:bold;
+}
+
+.d4
+{
+margin-left:-120px;
+margin-top:2px;
+text-align:left auto ;
+border:2px solid black;
+width:150px;
+height:339x;
+background-color:#54D1F1;
+}
+.d4 ul
+{
+list-style-type:none;
+}
+#img1
+{margin-left:-1050px;
+padding:0px;
+width:120px;
+height:90px;
+border-radius:3px solid grey;
+}
+
+.d5
+{
+border:2px solid white;
+width:300px;
+height:80px;
+margin-top:-30px;
+margin-left:300px;
+position:relative;
+overflow:hidden;
+
+}
+.d6{
+float:center;
+margin-top:-395px;
+margin-left:84px;
+width:930px;
+height:390px;
+
+}
+#set1{
+border:1px solid #2b60de;
+padding:0px;
+height:200px;
+width:860px;
+margin-top:85px;
+margin-left:-50px;
+background-image:url("http://www.cs.kent.edu/~rbattula/Test2/Images%20Website/Central Panel Background.jpg");
+
+}
+#set2{
+padding:2px;
+height:306px;
+width:740px;
+margin-top:-185px;
+margin-left:90px;
+
+
+}
+
+#n1{
+display:block;
+border:1px dotted white;
+}
+#footer1
+{
+margin-top:20px;
+margin-left:-35px;
+text-align:center;
+padding:-5px auto;
+text-align:center;
+width:1040px;
+}
+li:hover{
+color:#AF81C9;
+
+}
+li a:hover{
+color:green;
+}
+	.a1{
+text-decoration:none;
+color:black;	
+}
+
+.box1  ul
+{
+display:none;
+position:absolute;
+}
+.box1 li:hover > ul {
+		display: block;
+	}
+.box1 li:hover a {
+			color:green;
+		}
+
+.box1{
+margin:3px;
+margin-left:32px;
+margin-top:18px;
+padding:2px;
+list-style: none;
+text-decoration:none;
+position:absolute;
+content:"";
+clear:both;
+
+
+color:blue;
+}
+.box1 li :hover{
+
+color:blue;
+}

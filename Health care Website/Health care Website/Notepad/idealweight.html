@@ -1,0 +1,103 @@
+<script language="JavaScript" type="text/JavaScript">
+<!--
+
+function gradeQuestion(strLocation) {
+	top.location = strLocation;
+	//parent.document.title="Put your new title here"
+}
+function getIdealBodyWeight(ft, inc, weig) {
+	//add the values from the questions
+	
+	var ft = new Number(ft);
+	var inc = new Number(inc);
+	var weig = new Number(weig);
+
+	var lowWeight = new Number(0);
+	var highWeight = new Number(0);
+
+	if (inc == "") inc = 0;
+	if (ft == "") inc = 0;
+	if (weig == "") inc = 0;
+
+	if (ft<5 || ft>6){
+		alert('Please enter a numeric value between 5 and 6 for feet.  This calculator is not intended for those individuals who are under 5 feet tall or over 7 feet tall.')
+		top.location = '#calc';
+	}else{
+
+		if (ft==0||weig==0) {
+			alert('Please complete all calculator fields first.');
+			top.location = '#calc';
+		} else {
+			if (inc>12) {
+				alert('Inches must be between 0-12.');
+				top.location = '#calc';
+			} else {
+			
+				heightInches = (ft*12)+inc;
+				lowWeight = Math.round(18.5 * Math.pow((heightInches*.0254),2) * 2.2);
+				highWeight = Math.round(24.9 * Math.pow((heightInches * .0254),2) * 2.2);
+				if (weig < lowWeight)
+					aboveBelow = "below"
+				else
+					if (weig > highWeight)
+						aboveBelow = "above"
+					else
+						aboveBelow = "within"
+												
+				text1 = "Your current weight of " + weig + " pounds is "
+				text2 = aboveBelow + " the healthy body weight range of " 
+				text3 = lowWeight + " - " + highWeight + " pounds for your height of "
+				text4 = ft + " ft " + inc + " in.";
+				document.quiz.results1.value = text1;
+				document.quiz.results2.value = text2;
+				document.quiz.results3.value = text3;
+				document.quiz.results4.value = text4;
+				top.location = '#results';
+				}
+			}
+		}
+	}
+
+
+function resetTest() {
+
+	document.quiz.feet.value = "";
+	document.quiz.inches.value = "";
+	document.quiz.weight.value = "";
+	document.quiz.results1.value = "";
+	document.quiz.results2.value = "";
+	document.quiz.results3.value = "";
+	document.quiz.results4.value = "";
+}
+</script>
+<!---->
+<form name="quiz">                          
+<h4>To find out your healthy body weight range, enter your height in feet and inches  and your current weight in pounds. Then click on &#8220;Calculate.&#8221; 
+ </h4>                      
+ <p><h6>Please note</h6> 
+ The healthy body weight calculator does not account for pregnancy, breastfeeding women, athletes and those  with a muscular build, older persons or persons who 
+ have loss of muscle mass, and illness. Also, it is not intended for those individuals under 18 years of age,or those who are under 5 feet tall or over 7 feet&nbsp;tall. 
+ </p>  
+<h4>IDEAL BODY WEIGHT CALCULATOR</h4> 
+Height:  &nbsp;&nbsp;<input type="text" size="2" name="feet" value=""> feet &nbsp;&nbsp;<input type="text" size="2" name="inches" value=""> inches<br>
+Weight:  &nbsp;&nbsp;<input type="text" size="2" name="weight" value=""> Lbs <br>      
+ <input type="button" onClick="getIdealBodyWeight(document.quiz.feet.value,document.quiz.inches.value,document.quiz.weight.value)" value="Calculate"/>
+ <input type="button" onClick="document.quiz.reset()" value="Reset"/>           
+<fieldset style="width:200px;background-color:grey">
+<h6>OUTPUT</h6>
+<input type="text" name="results1" value="" size="40" style="border:1px solid grey;background-color:grey;" readonly /><br>
+<input type="text" name="results2" value="" style="border:1px solid grey;background-color:grey;" size="40"  readonly /><br>
+<input type="text" name="results3" value="" style="border:1px solid grey;background-color:grey;" size="40"  readonly />
+<input type="text" name="results4" value="" size="40" style="border:1px solid grey;background-color:grey;" readonly /></center></td>
+</fieldset>
+Healthy weight range is based on a healthy body mass index (BMI) of 18.5 to 24.9. The higher weights in each range apply to people with  more muscle and bone. Individuals with weights above the 
+healthy weight range may be at higher risk for developing  health problems. 
+	  
+</form>    
+</body>
+</html>
+    
+					  
+                                                 
+
+

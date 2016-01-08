@@ -1,0 +1,143 @@
+body {
+	font-family: arial;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style-position: inside;
+}
+.content {
+	width: 940px;
+	margin: 0 auto;
+}
+.banner_container {
+	background-image: url("../images/banner_background.jpg");
+	height: 319px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+}
+.sub_banner {
+	//margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 27px;
+	padding: 33px;
+	width: 478px;
+	background-color: #ffffff;
+}
+.banner_text h1 {
+	margin-bottom: 15px;
+	margin-top: 0;
+	font-style: italic;
+}
+.banner_text p {
+	color: #555555;
+	//margin-bottom: 20px;
+	font-size: 14pt;
+	margin: 0;
+}
+.banner_list {
+	margin: 20px 0;
+	color: #555555;
+	font-size: 9pt;
+}
+.register_button {
+	font-size: 11pt;
+	font-weight: bold;
+	background-color: #FFF229;
+	border: none;
+	padding: 10px;
+}
+.feature_block {
+	float: left;
+	width: 300px;
+	height: 150px;
+	border: 10px solid #e1e1e1;
+}
+.clear {
+	clear: both;
+}
+.features_container {
+	overflow: hidden;
+}
+.features_text {
+	padding: 15px 10px;
+	margin: 0;
+}
+.features_text h2, .feature_full h2{
+	font-size: 14pt;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.features_text p {
+	font-size: 9pt;
+	color: #555;
+	margin: 0;
+}
+.features_text a, .membership_container a {
+	color: #308dff;
+	font-size: 9pt;
+}
+.border_block {
+	border-left: none;
+	border-right: none;
+}
+.membership_container {
+	margin: 25px 0;
+	padding: 20px;
+	background-color: #EDEDED;
+}
+.membership_container span {
+	padding:0 20px;
+}
+.info_container  p{
+	color: #555;
+	font-size: 8pt;
+	margin: 0;
+}
+#faster_full { 
+	display: none;
+	float: left;
+}
+#more_value_full { 
+	display: none;
+	float: left;
+}
+#more_rewarding_full { 
+	display: none;
+	float: left;
+}
+/* #faster_full {
+	width: 590px;
+	float:left;
+	border-right: 10px solid #e1e1e1;
+}
+#more_value, #more_rewarding {
+	display:block;
+	} */
+	.feature_img img {
+		width: 542px;
+		height: 310;
+		margin: 0 25;
+	}
+	.feature_full h2 {
+		float: left;
+		width: 200px;
+	}
+	.feature_full_header {
+		overflow: hidden;
+		padding: 15px;
+	}
+	.close {
+		float: right;
+		background-image: url("../images/close.jpg");
+		border: medium none;
+		height: 20px;
+		width: 50px;
+		background-repeat: no-repeat;
+	}
+	.feature_text {
+		padding: 15px;
+	}
+	.features_full_block {
+		width: 590px;
+	}

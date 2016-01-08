@@ -1,0 +1,188 @@
+{
+margin:0px;
+padding:0px;
+}
+
+#body1{
+background-color:#White;
+}
+
+#marqueecontainer
+{
+background-color:white;
+margin-top:20px;
+margin-left:68px;
+width:120px;
+height:1040px;
+border:2px solid black;
+position:relative;
+overflow:hidden;
+
+
+}
+#marqueecontainer1{
+background-color:white;
+margin-top:-1044px;
+margin-left:1182px;
+width:120px;
+height:1040px;
+border:2px solid black;
+position:relative;
+overflow:hidden;
+
+}
+.d1
+{
+margin-top:-1044px;
+margin-left:190px;
+border:2px double black;
+border-radius:3px;
+width:990px;
+height:1040px;
+
+background-color:#F0FFFF;
+}
+.d2
+{
+
+margin-top:0px;
+height:100px;
+ background-color:WHITE;
+text-align:center;
+border:2px double white;
+}
+.d3
+{
+border:1px solid white;
+height:30px;
+overflow: hidden;
+padding-top: 0.35em;
+padding-bottom:0.55em;
+white-space:nowrap;
+color:blue;
+font-family:times;
+font-weight:bold;
+font-size:23px;
+}
+.d4
+{
+
+margin-top:10px;
+text-align:left auto ;
+border:2px dotted black;
+width:193px;
+height:385px;
+background-color:white;
+}
+.d4 ul
+{
+list-style-type:none;
+}
+#img1
+{margin-left:-800px;
+padding:10px;
+width:80px;
+height:80px;
+border-radius:3px solid grey;
+}
+
+.d5
+{
+border:2px solid white;
+width:300px;
+height:80px;
+margin-top:-30px;
+margin-left:300px;
+position:relative;
+overflow:hidden;
+}
+.d6{
+float:center;
+margin-top:-400px;
+margin-left:200px;
+width:600px;
+height:410px;
+}
+#set1{
+padding:1px;
+height:790px;
+width:730px;
+margin:20px;
+
+}
+
+#n1{
+display:block;
+border:1px dotted white;
+}
+#footer1
+{
+margin-top:390px;
+text-align:center;
+padding:-5px auto;
+border:2px double white;
+}
+li:hover{
+background-color:grey;
+
+}
+li a:hover{
+color:green;
+}
+.liststyle1{
+margin-left:-1px;
+margin-top:-15px;
+font-size:16px;
+padding:2px;
+font-family:Times;
+text-align:justified;
+text-decoration:none;
+color:gold;
+position:fixed;
+}
+
+.liststyle1  ul
+{
+display:none;
+position:absolute;
+}
+.liststyle1 li:hover > ul {
+		display: block;
+	}
+
+.liststyle1{
+list-style: none;
+position:relative;
+content:"";
+clear:both;
+
+
+}
+/**/
+.liststyle1 ul li:hover a {
+			color: blue;
+		}
+		/* Sub Menu Important for box positioning*/
+.liststyle1 ul li{
+	display:block;
+	left:150px;
+	top:-50px;
+	width:90px;
+	background-color:yellow;
+	position:relative;
+	
+	
+	}
+	/*Sub Menu Box high lighting*/
+.liststyle1 ul li a {
+  border:1px solid red;
+  display:block;
+  color: black; 
+ text-decoration: none;
+		
+	}
+	.a1{
+text-decoration:none;
+color:black;	
+}
+
