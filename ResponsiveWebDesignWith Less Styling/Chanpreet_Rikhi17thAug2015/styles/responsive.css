@@ -1,0 +1,683 @@
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+body .parent {
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+}
+body .parent .container {
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+}
+body .parent .container header {
+    background-color: blue;
+    background-image: url("file:///C:/Users/ChanpreetSingh/Desktop/backup-Chanpreet/TechAspect-Assignments/Chanpreet_Rikhi17thAug2015/images/header-bg.jpg");
+    float: left;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.banner {
+    display: none;
+}
+.main-Logo {
+    float: left;
+}
+.menu {
+    float: right;
+    margin-right: 15px;
+    margin-top: 21px;
+    text-transform: uppercase;
+}
+.menu-Tab-Icon {
+    margin-left: 11px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-Link {
+    display: none;
+    float: right;
+    line-height: 144%;
+    margin-bottom: 3px;
+    padding: 3%;
+    text-transform: uppercase;
+    width: 97%;
+}
+.menu-Link a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-Link ul li {
+    background-color: #474747;
+    border: 1px solid #fff;
+    list-style-type: none;
+    padding: 5%;
+    text-decoration: none;
+}
+.menu-Link ul li a:hover {
+    color: #ff9000;
+}
+.Introduction {
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+}
+.whoWeare {
+    background-color: #f2f2f2;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+.bubbleBox {
+    float: left;
+    margin-left: 9px;
+    margin-right: 10px;
+    width: auto;
+}
+.bubbleHeading {
+    float: left;
+    width: 213px;
+}
+.bubbleText-Para {
+    font-family: comic sans ms;
+    font-size: 12px;
+    line-height: 161%;
+    text-align: left;
+    width: 102%;
+}
+.text-Color {
+    color: #ff9000;
+}
+.bubbleImage {
+    height: auto;
+    width: 76px;
+}
+.buble-H3-Heading {
+    font-family: comic sans ms;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    margin-top: 13px;
+    text-align: left;
+}
+.startUp {
+    background-color: #f2f2f2;
+    display: block;
+}
+.fileIcon {
+    float: left;
+    margin-left: 9px;
+    margin-right: 10px;
+    width: auto;
+}
+.FileImage {
+    height: auto;
+    width: 76px;
+}
+.FileHeading {
+    float: left;
+    width: 213px;
+}
+.File-H3-Heading {
+    font-family: comic sans ms;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 12px;
+    margin-top: 13px;
+    text-align: left;
+}
+.FileText-Para {
+    font-family: comic sans ms;
+    font-size: 12px;
+    line-height: 161%;
+    text-align: left;
+    width: 84%;
+}
+.bubbleImage {
+    width: 88px;
+}
+.Welcome-Note {
+    background-color: #f2f2f2;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+    margin-bottom: 6%;
+    margin-top: 13px;
+}
+.Welcome-Note-Heading {
+    font-family: comic sans ms;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 37px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+.Welcome-note-para {
+    font-family: message-box;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    text-align: center;
+    width: 98%;
+}
+.IdeasAndEvents {
+    background-color: #f2f2f2;
+    height: auto;
+    margin-top: -19px;
+    width: 100%;
+}
+.OurIdeas {
+    background-color: #f2f2f2;
+    display: inline-block;
+    float: left;
+}
+.Idea-Heading {
+    font-family: comic sans ms;
+    font-weight: normal;
+    margin-bottom: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    text-align: left;
+}
+.Different-Opinion {
+    display: block;
+}
+.ImageAllignmentForIdeas {
+    display: block;
+    height: auto;
+}
+.Color-Pencils {
+    display: block;
+    height: auto;
+}
+.commonImageAlignment {
+    border: 10px solid #fff;
+    margin-bottom: 8px;
+    margin-left: 9px;
+    width: 87%;
+}
+.ImagesubHeading {
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    margin-left: 9px;
+}
+.IdeaPara {
+    font-family: helvetica;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 26px;
+    margin-left: 9px;
+    text-align: left;
+}
+.Crow-Bird {
+    display: block;
+    height: auto;
+}
+.Photogallery {
+    display: block;
+    height: auto;
+}
+.ReadMoreOptions {
+    display: block;
+}
+.ReadMoreArrow {
+    display: block;
+    margin-left: 12px;
+    overflow: hidden;
+}
+.ReadMoreClick {
+    display: block;
+    font-family: comic sans ms;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 17px;
+    margin-left: 18%;
+    margin-top: -27px;
+}
+.readingLink {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.LatestEvents {
+    display: block;
+    margin-top: 7%;
+}
+.LatestEvents-Heading {
+    font-family: comic sans ms;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-top: 8px;
+}
+.Calender-Image {
+    display: block;
+    margin-left: 3%;
+    width: 23%;
+}
+.Date-Day {
+    display: block;
+    font-family: comic sans ms;
+    font-size: 26px;
+    margin-left: 9%;
+    margin-top: -43px;
+}
+.Month-year {
+    display: block;
+    font-family: Arial;
+    margin-bottom: 6%;
+    margin-left: 27%;
+    margin-top: -16px;
+}
+.Calender-InfoHeading {
+    font-family: comic sans ms;
+    font-weight: normal;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+.Calender-Para {
+    font-family: comic sans ms;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 7%;
+    margin-left: 4%;
+    text-align: left;
+}
+footer {
+    background-color: #fff;
+    height: 134px;
+    margin-top: 12%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+.CopyRightSocialMedia {
+    display: block;
+}
+.CopyRightSymbol {
+    display: inline-block;
+    margin-left: 26%;
+    margin-top: 16%;
+}
+.FooterInfo {
+    display: block;
+    font-family: comic sans ms;
+    font-size: 13px;
+    line-height: 23px;
+    margin-left: 10%;
+    word-spacing: 1px;
+}
+.SocialMedia {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+.banner {
+    display: none;
+}
+.menu-Link {
+    display: inline-block;
+    float: right;
+    margin-bottom: -9px;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 55%;
+}
+.menu-Link ul li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 9px;
+    padding: 0;
+    text-decoration: none;
+}
+.menu {
+    display: none;
+    overflow: hidden;
+}
+.FileImage {
+    width: 83px;
+}
+.bubbleHeading {
+    margin-left: 2%;
+}
+.File-H3-Heading {
+    font-size: 25px;
+    line-height: 37px;
+    margin-top: 3px;
+    width: 4px;
+}
+.fileIcon {
+    margin-left: 16px;
+    margin-right: 54px;
+}
+.FileText-Para {
+    width: 96%;
+    word-spacing: -1px;
+}
+.IdeasAndEvents {
+    display: block;
+    width: 100%;
+}
+.OurIdeas {
+    display: block;
+    float: left;
+}
+.Idea-Heading {
+    font-size: 24px;
+    margin-left: 17px;
+}
+.Different-Opinion {
+    float: left;
+    width: 100%;
+}
+.ImageAlignmentMedia768 {
+    display: inline-block;
+    float: left;
+    margin-left: -7px;
+    width: 33%;
+}
+.Color-Pencils {
+    display: inline-block;
+    float: left;
+    margin-left: -7px;
+    width: 33%;
+}
+.commonImageAlignment {
+    border: 7px solid #fff;
+    margin-left: 24px;
+}
+.ImagesubHeading {
+    font-size: 15px;
+    margin-left: 27px;
+    margin-top: -6px;
+}
+.IdeaPara {
+    font-family: helvetica;
+    font-size: 11px;
+    line-height: 20px;
+    margin-left: 10%;
+    width: 76%;
+}
+.Crow-Bird {
+    display: inline-block;
+    float: left;
+    margin-left: -7px;
+    width: 33%;
+}
+.Photogallery {
+    display: inline-block;
+    float: left;
+    margin-left: -7px;
+    width: 33%;
+}
+.ReadMoreOptions {
+    margin-left: 1%;
+}
+.ReadMoreClick {
+    margin-left: 72px;
+}
+.LatestEvents {
+    margin-top: 4%;
+}
+.LatestEvents-Heading {
+    font-size: 24px;
+}
+.Events-Month {
+    display: block;
+}
+.Event-July {
+    display: inline-block;
+}
+.Calender-Image {
+    margin-left: 5%;
+    width: 25%;
+}
+.Month-year {
+    margin-left: 30%;
+}
+.Date-Day {
+    font-size: 43px;
+    margin-left: 50px;
+    margin-top: -70px;
+}
+.Calender-InfoHeading {
+    font-size: 12px;
+    margin-left: 6%;
+}
+.Calender-Para {
+    margin-left: 6%;
+    width: 76%;
+}
+.Event-May {
+    display: inline-block;
+}
+footer {
+    width: 100%;
+}
+.CopyRightSocialMedia {
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    width: 50%;
+}
+.FooterInfo {
+    width: 86%;
+    word-spacing: 3px;
+}
+.SocialMedia {
+    display: inline-block;
+    float: left;
+    margin-left: -2%;
+    margin-top: 7%;
+    width: 50%;
+}
+.FollowUs {
+    float: left;
+    margin-left: 24%;
+}
+.SocialLinks {
+    float: right;
+    margin-right: 19%;
+}
+.twitter {
+    display: inline-block;
+    float: left;
+}
+.facebook {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+.google {
+    display: inline-block;
+    float: left;
+    margin-left: 18px;
+}
+}
+@media only screen and (min-width: 1024px) {
+.parent {
+    width: 1024px;
+}
+.container {
+    width: 100%;
+}
+.banner {
+    display: inline-block;
+    margin-top: -15px;
+}
+.Banner-Image {
+    float: left;
+    width: 69%;
+}
+.Banner-Text {
+    float: left;
+    height: auto;
+    margin-left: -56px;
+    margin-top: 11%;
+    width: 30%;
+}
+.Banner-Heading {
+    font-family: comic sans ms;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 150%;
+    margin-bottom: 7%;
+    margin-left: 33%;
+    width: 37%;
+}
+.Banner-Para {
+    font-family: comic sans ms;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 208%;
+    margin-bottom: 67px;
+    margin-left: 14px;
+    width: 96%;
+}
+.Banner-Image-Alignment {
+    height: 26em;
+    width: 145%;
+}
+.banner-Rating {
+    margin-left: 36%;
+    margin-top: 23px;
+}
+.main-Logo {
+    margin-left: 12%;
+}
+.menu-Link {
+    margin-bottom: -19px;
+    margin-top: -12px;
+}
+.menu-Link ul li {
+    margin-right: 6%;
+}
+.whoWeare {
+    margin-left: 19px;
+}
+.bubbleHeading {
+    margin-left: 30px;
+}
+.bubbleText-Para {
+    font-size: 11px;
+    text-align: left;
+    width: 153%;
+}
+.fileIcon {
+    margin-left: 11%;
+}
+.File-H3-Heading {
+    width: 85%;
+}
+.FileText-Para {
+    width: 130%;
+}
+.Welcome-Note-Heading {
+    font-size: 24px;
+}
+.Welcome-note-para {
+    font-family: helvetica;
+    font-size: 23px;
+    font-weight: normal;
+}
+.IdeasAndEvents {
+    width: 100%;
+}
+.OurIdeas {
+    display: inline-block;
+    float: left;
+    margin-left: 0;
+    width: 53%;
+}
+.Different-Opinion {
+    float: left;
+}
+.ImageAlignment1024 {
+    width: 33%;
+}
+.Color-Pencils {
+    width: 33%;
+}
+.ImagesubHeading {
+    font-size: 18px;
+    margin-left: 27px;
+}
+.IdeaPara {
+    font-size: 11px;
+    margin-left: 29px;
+    width: 83%;
+}
+.Crow-Bird {
+    margin-left: 1%;
+    width: 33%;
+}
+.Photogallery {
+    margin-left: 1%;
+    width: 33%;
+}
+.ReadMoreOptions {
+    margin-top: 1px;
+}
+.readingLink {
+    display: inline-block;
+    margin-left: 10px;
+}
+.ReadMoreClick {
+    margin-left: 53px;
+}
+.LatestEvents {
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+    width: 44%;
+}
+.LatestEvents-Heading {
+    font-size: 20px;
+}
+.Events-Month {
+    display: inline;
+    float: left;
+}
+.Event-July {
+    display: inline;
+}
+.Calender-Image {
+    margin-top: 2%;
+    width: 52px;
+}
+.Date-Day {
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: -35px;
+}
+.Calender-InfoHeading {
+    margin-top: -11px;
+}
+.Calender-Para {
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    margin-top: -16px;
+    width: 87%;
+}
+.Event-May {
+    display: inline;
+}
+.Month-year {
+    margin-left: 17%;
+}
+.FooterInfo {
+    width: 65%;
+    word-spacing: 3px;
+}
+}

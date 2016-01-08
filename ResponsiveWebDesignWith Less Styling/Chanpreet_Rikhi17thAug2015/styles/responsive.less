@@ -1,0 +1,724 @@
+/*Implementing Less Dynamic Styling*/
+
+@Orange-TextColor:#ff9000;
+@Font-Family:comic sans ms;
+@Font-FamilyType2:helvetica;
+@Font-FamilyNormalWeight:normal;
+@Font-FamilyStrongWeight:bold;
+@AlignmentLevel-Block:block;
+@AlignmentLevel-InlineBlock:inline-block;
+@AlignmentLevel-Inline:inline;
+
+
+.clear {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+body{
+   .parent {
+    height: auto;
+    margin: 0 auto;
+    width: 100%; 
+   
+   .container{
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+	
+	header {
+		background-color: blue;
+		background-image: url("../images/header-bg.jpg");
+		float: left;
+		height: auto;
+		margin-bottom: 15px;
+		width: 100%;
+         }
+	
+	
+    }
+  }
+}
+.banner {
+    display: none;
+}
+
+.main-Logo {
+    float: left;
+}
+.menu {
+    float: right;
+    margin-right: 15px;
+    margin-top: 21px;
+    text-transform: uppercase;
+}
+.menu-Tab-Icon {
+    margin-left: 11px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu-Link {
+    display: none;
+    float: right;
+    line-height: 144%;
+    margin-bottom: 3px;
+    padding: 3%;
+    text-transform: uppercase;
+    width: 97%;
+
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	ul li {
+        background-color: #474747;
+        border: 1px solid #fff;
+        list-style-type: none;
+        padding: 5%;
+        text-decoration: none;
+		 a:hover {
+            color: #ff9000;
+         }
+		
+       }
+}
+
+
+.Introduction {
+    background-color: #f2f2f2;
+    height: auto;
+    width: 100%;
+}
+.whoWeare {
+    background-color: #f2f2f2;
+    display:@AlignmentLevel-Block;
+    height: auto;
+    width: 100%;
+}
+.bubbleBox {
+    float: left;
+    margin-left: 9px;
+    margin-right: 10px;
+    width: auto;
+}
+.bubbleHeading {
+    float: left;
+    width: 213px;
+}
+.bubbleText-Para {
+    font-family: @Font-Family;
+    font-size: 12px;
+    line-height: 161%;
+    text-align: left;
+    width: 102%;
+}
+.text-Color {
+    color: @Orange-TextColor;
+}
+.bubbleImage {
+    height: auto;
+    width: 76px;
+}
+.buble-H3-Heading {
+    font-family: @Font-Family;
+    font-size: 24px;
+    font-weight: @Font-FamilyNormalWeight;
+    margin-bottom: 12px;
+    margin-top: 13px;
+    text-align: left;
+}
+.startUp {
+    background-color: #f2f2f2;
+    display: @AlignmentLevel-Block;
+}
+.fileIcon {
+    float: left;
+    margin-left: 9px;
+    margin-right: 10px;
+    width: auto;
+}
+.FileImage {
+    height: auto;
+    width: 76px;
+}
+.FileHeading {
+    float: left;
+    width: 213px;
+}
+.File-H3-Heading {
+    .buble-H3-Heading;
+}
+.FileText-Para {
+    font-family: @Font-Family;
+    font-size: 12px;
+    line-height: 161%;
+    text-align: left;
+    width: 84%;
+}
+.bubbleImage {
+    width: 88px;
+}
+.Welcome-Note {
+    background-color: #f2f2f2;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+    margin-bottom: 6%;
+    margin-top: 13px;
+}
+.Welcome-Note-Heading {
+    font-family: @Font-Family;
+    font-size: 30px;
+    font-weight: @Font-FamilyNormalWeight;
+    line-height: 37px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+.Welcome-note-para {
+    font-family: message-box;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    text-align: center;
+    width: 98%;
+}
+.IdeasAndEvents {
+    background-color: #f2f2f2;
+    height: auto;
+    margin-top: -19px;
+    width: 100%;
+}
+.OurIdeas {
+    background-color: #f2f2f2;
+    display:@AlignmentLevel-InlineBlock;
+    float: left;
+}
+.Idea-Heading {
+    font-family: @Font-Family;
+    font-weight: @Font-FamilyNormalWeight;
+    margin-bottom: 19px;
+    margin-left: 7px;
+    margin-top: 10px;
+    text-align: left;
+}
+.Different-Opinion {
+    display:@AlignmentLevel-Block;
+}
+.ImageAllignmentForIdeas{
+    display:@AlignmentLevel-Block;
+    height: auto;
+}
+.Color-Pencils {
+    .ImageAllignmentForIdeas;
+}
+.commonImageAlignment {
+    border: 10px solid #fff;
+    margin-bottom: 8px;
+    margin-left: 9px;
+    width: 87%;
+}
+.ImagesubHeading {
+    font-family: @Font-FamilyType2;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 4px;
+    margin-left: 9px;
+}
+.IdeaPara {
+    font-family: @Font-FamilyType2;
+    font-size: 15px;
+    font-weight: @Font-FamilyNormalWeight;
+    line-height: 24px;
+    margin-bottom: 26px;
+    margin-left: 9px;
+    text-align: left;
+}
+.Crow-Bird {
+ .ImageAllignmentForIdeas;
+}
+.Photogallery {
+     .ImageAllignmentForIdeas;
+}
+.ReadMoreOptions {
+    display:@AlignmentLevel-Block;
+}
+.ReadMoreArrow {
+    display: @AlignmentLevel-Block;
+    margin-left: 12px;
+    overflow: hidden;
+}
+.ReadMoreClick {
+    display:@AlignmentLevel-Block;
+    font-family: @Font-Family;
+    font-size: 16px;
+    font-weight:@Font-FamilyNormalWeight;
+    margin-left: 18%;
+    margin-top: -27px;
+    margin-bottom: 17px;
+}
+.readingLink {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.LatestEvents {
+    margin-top: 7%;
+    display:@AlignmentLevel-Block;
+}
+.LatestEvents-Heading {
+    font-family: @Font-Family;
+    font-size: 20px;
+    font-weight:@Font-FamilyNormalWeight;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    margin-top: 8px;
+}
+.Events-Month {
+}
+.Event-July {
+}
+.Calender-Image {
+    display:@AlignmentLevel-Block;
+    margin-left: 3%;
+    width: 23%;
+}
+.Date-Day {
+    display:@AlignmentLevel-Block;
+    font-family: @Font-Family;
+    font-size: 26px;
+    margin-left: 9%;
+    margin-top: -43px;
+}
+.Month-year {
+    display:@AlignmentLevel-Block;
+    font-family: Arial;
+    margin-bottom: 6%;
+    margin-left: 27%;
+    margin-top: -16px;
+}
+.Calender-InfoHeading {
+    font-family: @Font-Family;
+    font-weight: @Font-FamilyNormalWeight;
+    margin-bottom: 4%;
+    margin-left: 4%;
+}
+.Calender-Para {
+    font-family: @Font-Family;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 7%;
+    margin-left: 4%;
+    text-align: left;
+}
+footer {
+    background-color: #fff;
+    height: 134px;
+    margin-top: 12%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+.CopyRightSocialMedia {
+    display: @AlignmentLevel-Block;
+}
+.CopyRightSymbol {
+    display: @AlignmentLevel-InlineBlock;
+    margin-left: 26%;
+    margin-top: 16%;
+}
+.FooterInfo {
+    display: @AlignmentLevel-Block;
+    font-family: @Font-Family;
+    font-size: 13px;
+    line-height: 23px;
+    margin-left: 10%;
+    word-spacing: 1px;
+}
+.SocialMedia {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+.banner {
+    display: none;
+}
+.menu-Link {
+    display:@AlignmentLevel-InlineBlock;
+    float: right;
+    overflow: hidden;
+    text-transform: uppercase;
+    width: 55%;
+	 margin-bottom: -9px;
+
+ ul li {
+    display: @AlignmentLevel-InlineBlock;
+    list-style-type: none;
+    margin-right: 9px;
+    text-decoration: none;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+ }
+}
+.menu {
+    display: none;
+    overflow: hidden;
+}
+
+
+
+.FileImage {
+    width: 83px;
+}
+.bubbleHeading {
+    margin-left: 2%;
+}
+.File-H3-Heading {
+    font-size: 25px;
+    line-height: 37px;
+    margin-top: 3px;
+    width: 4px;
+}
+.fileIcon {
+    margin-left: 16px;
+    margin-right: 54px;
+}
+.bubbleText-Para {
+}
+.FileText-Para {
+    width: 96%;
+    word-spacing: -1px;
+}
+.Welcome-Note {
+}
+.Welcome-Note-Heading {
+}
+.Welcome-note-para {
+}
+.IdeasAndEvents {
+    display:@AlignmentLevel-Block;
+    width: 100%;
+}
+.OurIdeas {
+    display:@AlignmentLevel-Block;
+    float: left;
+}
+.Idea-Heading {
+    font-size: 24px;
+    margin-left: 17px;
+}
+.Different-Opinion {
+    float: left;
+    width: 100%;
+}
+.ImageAlignmentMedia768{
+ display:@AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: -7px;
+    width: 33%;
+
+}
+.Color-Pencils {
+   .ImageAlignmentMedia768;
+}
+.commonImageAlignment {
+    border: 7px solid #fff;
+    margin-left: 24px;
+}
+.ImagesubHeading {
+    font-size: 15px;
+    margin-left: 27px;
+    margin-top: -6px;
+}
+.IdeaPara {
+    font-family:@Font-FamilyType2;
+    font-size: 11px;
+    line-height: 20px;
+    margin-left: 10%;
+    width: 76%;
+}
+.Crow-Bird {
+   .ImageAlignmentMedia768;
+}
+.Photogallery {
+    .ImageAlignmentMedia768;
+}
+.ReadMoreOptions {
+    margin-left: 1%;
+}
+.readingLink {
+}
+.ReadMoreClick {
+    margin-left: 72px;
+}
+.LatestEvents {
+    margin-top: 4%;
+}
+.LatestEvents-Heading {
+    font-size: 24px;
+}
+.Events-Month {
+    display: block;
+}
+.Event-July {
+    display: @AlignmentLevel-InlineBlock;
+}
+.Calender-Image {
+    margin-left: 5%;
+    width: 25%;
+}
+.Month-year {
+    margin-left: 30%;
+}
+.Date-Day {
+    font-size: 43px;
+    margin-left: 50px;
+    margin-top: -70px;
+}
+.Calender-InfoHeading {
+    font-size: 12px;
+    margin-left: 6%;
+}
+.Calender-Para {
+    margin-left: 6%;
+    width: 76%;
+}
+.Event-May {
+    display: @AlignmentLevel-InlineBlock;
+}
+footer {
+    width: 100%;
+}
+.CopyRightSocialMedia {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: 0;
+    width: 50%;
+}
+.CopyRightSymbol {
+}
+.FooterInfo {
+    width: 86%;
+    word-spacing: 3px;
+}
+.SocialMedia {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: -2%;
+    margin-top: 7%;
+    width: 50%;
+}
+.FollowUs {
+    float: left;
+    margin-left: 24%;
+}
+.SocialLinks {
+    float: right;
+    margin-right: 19%;
+}
+.twitter {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+}
+.facebook {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: 20px;
+}
+.google {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: 18px;
+}
+}
+@media only screen and (min-width: 1024px) {
+.parent {
+    width: 1024px;
+}
+.container {
+    width: 100%;
+}
+.banner {
+    display:@AlignmentLevel-InlineBlock;
+    margin-top: -15px;
+}
+.Banner-Image {
+    float: left;
+    width: 69%;
+}
+.Banner-Text {
+    float: left;
+    height: auto;
+    margin-left: -56px;
+    margin-top: 11%;
+    width: 30%;
+}
+.Banner-Heading {
+    font-family: @Font-Family;
+    font-size: 22px;
+    font-weight: @Font-FamilyNormalWeight;
+    line-height: 150%;
+    margin-bottom: 7%;
+    margin-left: 33%;
+    width: 37%;
+}
+.Banner-Para {
+    font-family: @Font-Family;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 208%;
+    margin-bottom: 67px;
+    margin-left: 14px;
+    width: 96%;
+}
+.Banner-Image-Alignment {
+    height: 26em;
+    width: 145%;
+}
+.banner-Rating {
+    margin-left: 36%;
+    margin-top: 23px;
+}
+.main-Logo {
+    margin-left: 12%;
+}
+ 
+.menu-Link {
+    margin-bottom: -19px;
+    margin-top: -12px;
+ 
+
+ ul li {
+    margin-right: 6%;
+}	
+}
+.whoWeare {
+    margin-left: 19px;
+}
+.bubbleBox {
+}
+.bubbleHeading {
+    margin-left: 30px;
+}
+.buble-H3-Heading {
+}
+.bubbleText-Para {
+    font-size: 11px;
+    text-align: left;
+    width: 153%;
+}
+.startUp {
+}
+.fileIcon {
+    margin-left: 11%;
+}
+.FileHeading {
+}
+.File-H3-Heading {
+    width: 85%;
+}
+.FileText-Para {
+    width: 130%;
+}
+.Welcome-Note {
+}
+.Welcome-Note-Heading {
+    font-size: 24px;
+}
+.Welcome-note-para {
+    font-family: @Font-FamilyType2;
+    font-size: 23px;
+    font-weight: normal;
+}
+.IdeasAndEvents {
+    width: 100%;
+}
+.OurIdeas {
+    display: @AlignmentLevel-InlineBlock;
+    float: left;
+    margin-left: 0;
+    width: 53%;
+}
+.Different-Opinion {
+    float: left;
+}
+.ImageAlignment1024{
+ width: 33%;
+}
+.Color-Pencils {
+   .ImageAlignment1024;
+}
+.commonImageAlignment {
+}
+.ImagesubHeading {
+    font-size: 18px;
+    margin-left: 27px;
+}
+.IdeaPara {
+    font-size: 11px;
+    margin-left: 29px;
+    width: 83%;
+}
+.Crow-Bird {
+    margin-left: 1%;
+  .ImageAlignment1024;
+}
+.Photogallery {
+    margin-left: 1%;
+    .ImageAlignment1024;
+}
+.ReadMoreOptions {
+    margin-top: 1px;
+}
+.readingLink {
+    display: @AlignmentLevel-InlineBlock;
+    margin-left: 10px;
+}
+.ReadMoreClick {
+    margin-left: 53px;
+}
+.LatestEvents {
+    display: @AlignmentLevel-InlineBlock;
+    float: right;
+    margin-top: 7px;
+    width: 44%;
+}
+.LatestEvents-Heading {
+    font-size: 20px;
+}
+.Events-Month {
+    display:@AlignmentLevel-Inline;
+    float: left;
+}
+.Event-July {
+    display: @AlignmentLevel-Inline;
+}
+.Calender-Image {
+    margin-top: 2%;
+    width: 52px;
+}
+.Date-Day {
+    font-size: 24px;
+    margin-left: 35px;
+    margin-top: -35px;
+}
+.Calender-InfoHeading {
+    margin-top: -11px;
+}
+.Calender-Para {
+    font-size: 12px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    margin-top: -16px;
+    width: 87%;
+}
+.Event-May {
+    display: @AlignmentLevel-Inline;
+}
+.Month-year {
+    margin-left: 17%;
+}
+.FooterInfo {
+    width: 65%;
+    word-spacing: 3px;
+}
+}
