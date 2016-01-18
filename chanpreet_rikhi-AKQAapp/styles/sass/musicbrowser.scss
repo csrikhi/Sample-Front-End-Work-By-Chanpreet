@@ -1,0 +1,1099 @@
+@import  'fonts';
+$primarybackground:#1E1F22;
+$primarymenuHeader:#313236;
+$contentBorder:#ccc;
+$sampleColor:#474747;
+$colorWhite:#fff;
+$colorListMenu:#62A8F0;
+$borderColor:#333335;
+$topSongsBackground:#151517;
+$commonFont:'sanFranciscofont',sans-serif;
+$headingColor:#64ADF6;
+
+@mixin topDivHeading{
+
+color:$headingColor;
+font-family:$commonFont;	
+font-size:25px;
+font-weight:normal;
+text-align: left;
+margin-left: 1.4em;
+margin-top: 2em;
+margin-bottom: 12px;
+
+
+}
+@mixin dataLayoutAlign{
+margin:0 auto;
+margin-bottom: 4em;
+
+
+}
+@mixin divImageAlign{	
+width: 19em;
+height:228px;
+}
+
+@mixin bottomHeaderInfoAlign{
+color: $colorWhite;
+font-family:$commonFont;	
+font-size: 17px;
+
+line-height: 25px;
+margin-top: 1em;
+margin-left: 2em;
+
+
+
+}
+@mixin topSongsColumn{
+
+background:$topSongsBackground;
+//border:1px solid green;
+height:555px;
+
+overflow:hidden;
+margin: 7px;
+
+}
+@mixin songListHeading{
+
+color:$colorWhite;
+font-family:$commonFont;	
+font-size:25px;
+margin-top:2em;
+border-bottom:2px solid $borderColor;
+text-align: left;
+margin-left: 15px;
+margin-top: 2em;
+padding-bottom: 1em;
+width: 10em;
+
+margin-bottom: 1em;
+
+
+
+
+
+}
+
+@mixin footerHeading{
+
+
+
+text-align: center;
+color: #fff;
+font-size: 16px;
+margin-top: 3em;
+font-family:$commonFont;
+
+
+}
+@mixin footerlistAlign{
+list-style-type: none;
+color:$headingColor;
+font-family:$commonFont;
+line-height:23px;
+line-height: 32px;
+text-align: center;
+
+}
+
+
+.container{
+margin:0 auto;
+background:$primarybackground;
+
+height:auto;
+
+font-family:$commonFont;
+
+header{
+position:relative;
+background:$primarymenuHeader;
+overflow:hidden;
+
+.menuButton{
+height: 4em;
+display: inline-block;
+margin:0 auto;
+margin-left: 1em;
+
+
+.barsAlign{
+margin-top: 13px;
+font-size: 2em;
+margin-left: 17px;
+color: $colorWhite;
+cursor:pointer;
+
+
+
+}
+
+
+}
+
+.search{
+.searchAlign{
+color:$colorWhite;
+font-size: 25px;
+float: right;
+margin-top: 16px;
+margin-right: 1em;
+
+
+}
+}
+
+
+nav{
+overflow:hidden;
+.menuDisplay{
+background: $colorListMenu;
+display: none;
+
+li{
+border:1px solid $primarybackground;
+list-style-type: none;
+padding: 1em;
+text-transform: uppercase;
+cursor: pointer;
+
+a{
+text-decoration:none;
+color:$colorWhite;  
+
+}
+
+
+}
+
+}  
+
+
+}
+
+
+
+}
+.contentSection{
+//border:1px solid $primarybackground;
+overflow:hidden;
+background:$primarybackground;
+margin: 0 auto;
+
+
+
+.dataLayout{
+@include dataLayoutAlign;
+.latestTrends{
+margin:0 auto;
+.contentdisplay{
+margin:0 auto;
+.topHeading{
+@include topDivHeading;
+
+}
+.imageAlign{
+margin:7px;
+@include divImageAlign;
+
+}
+.bottomHeaderInfo{
+
+@include bottomHeaderInfoAlign;
+
+}
+}
+.contentrowDisp{
+.topHeading{
+@include topDivHeading;
+
+}
+.imageAlign{
+margin: 7px;
+@include divImageAlign;
+}
+.bottomHeaderInfo{
+@include bottomHeaderInfoAlign;
+
+font-size:15px;
+
+}	
+
+
+
+
+}
+
+}
+.searchandnewArtist{
+.BestArtistcontentdisplay{
+
+.topHeading{
+@include topDivHeading;
+
+}
+.imageAlign{
+@include divImageAlign;
+
+margin-left: 7px;
+
+}
+.bottomHeaderInfo{
+
+@include bottomHeaderInfoAlign;
+
+}
+
+
+}
+
+
+.preOrderDisp{
+.topHeading{
+@include topDivHeading;
+
+}
+.imageAlign{
+@include divImageAlign;
+
+margin-left: 7px;
+
+}
+.bottomHeaderInfo{
+
+@include bottomHeaderInfoAlign;
+
+
+}
+
+
+
+
+}
+
+
+
+
+}
+
+}
+.topSongs{
+@include topSongsColumn;
+.songListHeading{
+@include songListHeading;
+}
+.songListData{
+#floatButtonAlign{
+
+display: block;
+width: 22.4em;
+height: 67px;
+position: relative;
+z-index: 14;
+top:356px;
+overflow:hidden;
+background:$topSongsBackground;
+color:$headingColor;
+border:none;
+}
+
+#floatButtonAlignTop{
+display:none ;
+width: 22.4em;
+height: 67px;
+background:$topSongsBackground;
+color:$headingColor;
+border:none;
+
+
+}
+
+.favouiteList{
+margin-top:0.3em;
+a{
+text-decoration:none !important;
+color:$headingColor;
+.bookInfo{
+list-style-type:none;
+margin-left: 1em;
+line-height: 15px;
+
+.songsInfoAlign{
+color:#64ADF6;
+display: inline;
+position:relative;
+top:-43px;
+font-size:17px;
+margin-left:1em;
+text-decoration:none;
+}
+.singerInfoAlign{
+
+color: #fff;
+display: inline;
+position: relative;
+top: 16px;
+margin-left: 4.5em;
+font-size:17px;
+text-decoration:none;
+
+
+
+}
+.songImageAlign{
+
+width:60px ;
+height:60px;
+border-radius: 50%;
+box-shadow: 2px 2px #000;
+
+
+}
+
+
+}
+}
+
+
+}
+
+
+}
+
+}
+
+
+
+}
+.clear{
+
+clear:both;
+
+}
+footer{
+cursor:pointer;
+height: 190px;
+.footerHeading{
+@include footerHeading;
+
+
+}
+.footerContactList li{
+@include footerlistAlign;
+
+a{
+
+color:$headingColor;
+text-decoration:none;
+
+
+}
+
+}
+
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 375px) and (max-width:480px) and (orientation: portrait){
+.container{
+
+header{
+.menuButton{
+.barsAlign{
+
+}
+
+}
+nav{
+.menuDisplay{
+li{
+
+}
+
+}  
+
+}
+.search{
+margin-left: 3em;
+.searchAlign{
+
+}
+}
+
+}
+
+.contentSection{
+//border:1px solid $primarybackground;
+overflow:hidden;
+background:$primarybackground;
+
+
+
+.dataLayout{
+@include dataLayoutAlign;
+.latestTrends{
+margin:0 auto;
+.contentdisplay{
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 22em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+
+
+}
+}
+.contentrowDisp{
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 22em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+}	
+
+}
+
+}
+.searchandnewArtist{
+.BestArtistcontentdisplay{
+
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 22em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+}	
+
+
+
+}
+
+.preOrderDisp{
+
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 22em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+
+}	
+
+
+
+
+
+
+}
+
+}
+
+}
+.topSongs{
+@include topSongsColumn;
+height:550px;
+.songListHeading{
+@include songListHeading;
+width:12em;
+margin-left:26px;
+}
+.songListData{
+margin-left:1.5em;
+#floatButtonAlign{
+width:27em;
+left:-24px;
+}
+
+#floatButtonAlignTop{
+width:27em;
+left:-24px;
+
+
+}
+.favouiteList{
+margin-top:0.1em;
+a{
+text-decoration:none !important;
+color:$headingColor;
+.bookInfo{
+list-style-type:none;
+margin-left: 1em;
+line-height: 15px;
+
+.songsInfoAlign{
+color:#64ADF6;
+display: inline;
+position:relative;
+top:-43px;
+font-size:17px;
+margin-left:1em;
+text-decoration:none;
+}
+.singerInfoAlign{
+
+color: #fff;
+display: inline;
+position: relative;
+top: 16px;
+margin-left: 4.5em;
+font-size:17px;
+text-decoration:none;
+
+
+
+}
+.songImageAlign{
+
+width:60px ;
+height:60px;
+border-radius: 50%;
+box-shadow: 2px 2px #000;
+
+
+}
+
+
+
+}
+
+}
+
+
+}
+
+}
+
+
+}
+}
+.clear{
+
+clear:both;
+
+}
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width:1200px) and (orientation: portrait){
+.container{
+
+header{
+.menuButton{
+.barsAlign{
+
+}
+
+}
+nav{
+.menuDisplay{
+li{
+
+}
+
+}  
+
+}
+.search{
+margin-left: 3em;
+.searchAlign{
+
+}
+}
+
+}
+
+.contentSection{
+//border:1px solid $primarybackground;
+overflow:hidden;
+background:$primarybackground;
+
+
+
+.dataLayout{
+@include dataLayoutAlign;
+.latestTrends{
+margin:0 auto;
+.contentdisplay{
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 96%;
+height:16em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+margin-left: 2em;
+
+
+}
+}
+.contentrowDisp{
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 96%;
+height:16em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+}	
+
+}
+
+}
+.searchandnewArtist{
+.BestArtistcontentdisplay{
+
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 96%;
+height:16em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+}	
+
+
+
+}
+
+.preOrderDisp{
+
+.topHeading{
+
+}
+
+.imageAlign{
+margin-left: 9px;
+width: 96%;
+height:16em;
+}
+.bottomHeaderInfo{
+
+font-size: 20px;
+width: 15em;
+margin:0 auto;
+margin-top: 1em;
+
+}	
+
+
+
+
+
+
+}
+
+}
+
+}
+.topSongs{
+@include topSongsColumn;
+height:550px;
+.songListHeading{
+@include songListHeading;
+width:12em;
+margin-left:26px;
+}
+.songListData{
+margin-left:1.5em;
+#floatButtonAlign{
+width:27em;
+left:-24px;
+}
+
+#floatButtonAlignTop{
+width:27em;
+left:-24px;
+
+
+}
+.favouiteList{
+margin-top:0.1em;
+a{
+text-decoration:none !important;
+color:$headingColor;
+.bookInfo{
+list-style-type:none;
+margin-left: 1em;
+line-height: 15px;
+
+.songsInfoAlign{
+color:#64ADF6;
+display: inline;
+position:relative;
+top:-43px;
+font-size:17px;
+margin-left:1em;
+text-decoration:none;
+}
+.singerInfoAlign{
+
+color: #fff;
+display: inline;
+position: relative;
+top: 16px;
+margin-left: 4.5em;
+font-size:17px;
+text-decoration:none;
+
+
+
+}
+.songImageAlign{
+
+width:60px ;
+height:60px;
+border-radius: 50%;
+box-shadow: 2px 2px #000;
+
+
+}
+
+
+
+}
+
+}
+
+
+}
+
+}
+
+
+}
+}
+.clear{
+
+clear:both;
+
+}
+}
+
+
+}
+
+
+
+
+
+@media only screen and  (min-width: 1200px) 
+and (max-width: 1600px) and (orientation:landscape){
+.container{
+header{
+.menuButton{
+display: none !important ;
+.barsAlign{
+display: none;
+}
+
+}
+nav{
+display:inline-block !important;
+.menuDisplay{
+display:inline-block !important ;
+background:none;
+margin-left: 24em;
+li{
+border:none;
+float:left;
+text-transform: lowercase;
+cursor: pointer;
+color:$colorWhite;
+margin-right: 2em;
+
+}
+
+}  
+
+
+}
+
+.search{
+float:right;
+margin-top: 12px;
+margin-right: 21em;
+.searchAlign{
+font-size: 21px;
+float: right;
+margin-top: 0px;
+margin-right: 2em;
+}
+}
+
+}
+.contentSection{
+.dataLayout{
+overflow:hidden;
+float:left;
+//border:1px solid green;
+width: 70%;
+padding-bottom: 20px;
+.latestTrends{
+padding-left:2em;
+margin:0 auto;
+display:block;
+overflow:hidden;
+//border:1px solid red;
+
+.contentdisplay{
+float:left;
+.topHeading{
+margin-left: 5px;
+}
+.imageAlign{
+width: 24em;
+margin-right: 2em;
+box-shadow:3px 3px 3px 3px black;
+}
+.bottomHeaderInfo{
+width:19em;
+font-size:17px;
+margin-left: 8px;
+}
+}
+
+.contentrowDisp{
+float:left;
+.topHeading{
+margin-left: 5px;
+
+}
+.imageAlign{
+width: 24em;
+box-shadow:3px 3px 3px 3px black;
+}
+.bottomHeaderInfo{
+font-size:17px;
+width:16em;
+margin-left: 8px;
+}
+
+
+}
+
+
+
+}
+.searchandnewArtist{
+display:block;
+padding-left:2em;
+//border:1px solid blue;
+overflow:hidden;
+.BestArtistcontentdisplay{
+float:left;
+margin-right:0em;
+.topHeading{
+margin-left: 5px;
+}
+.imageAlign{
+width: 24em;
+margin-right:2em;
+box-shadow:3px 3px 3px 3px black;
+}
+.bottomHeaderInfo{
+width:16em;
+font-size:17px;
+margin-left: 8px;
+}
+
+}
+
+
+.preOrderDisp{
+
+float:left;
+.topHeading{
+margin-left: 5px;
+
+}
+.imageAlign{
+width:24em;
+box-shadow:3px 3px 3px 3px black;
+}
+.bottomHeaderInfo{
+width:21em;
+font-size:17px;
+margin-left: 8px;
+}
+
+
+}
+
+
+}
+
+}
+.topSongs{
+
+float: left;
+width: 30%;
+@include topSongsColumn;
+height: auto;
+margin:0px;
+border: none;
+background:#1E1F22;
+.songListHeading{
+@include songListHeading;
+}
+.songListData{
+
+.favouiteList{
+margin-top:2em;
+padding-bottom:-moz-calc(3.1em);
+a{
+text-decoration:none !important;
+color:$headingColor;
+
+
+.bookInfo{
+list-style-type:none;
+margin-left: 1em;
+line-height: 4.5px;
+margin-bottom: 1.2em;
+
+
+}
+}
+
+}
+#floatButtonAlign{
+
+display: none;
+
+}
+#floatButtonAlignTop{
+
+display: none  !important ;
+
+}
+
+}
+
+}
+
+}
+.clear{
+
+clear:both;
+
+}
+footer{
+overflow:hidden;
+height: 50px;
+.footerContent{
+.footerHeading{
+font-family:$commonFont;
+margin-top: 1.5em;
+font-size: 12px;
+float: left;
+display: inline-block;
+width: 17em;
+margin-left: 25em;
+
+
+}
+.footerContactList{
+float: right;
+display: inline-block;
+width: 45em;
+margin-top: 7px;
+overflow: hidden;
+margin-right: 1em;
+li{
+
+font-size:12px;
+font-family:$commonFont;
+float:left;
+margin-right:3em;
+
+
+}
+
+}
+
+
+}	
+
+
+
+}
+}
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+<!Doctype html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Music Browser</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
+	<link rel="stylesheet" type="text/css" href="styles/css-styles/musicbrowser.min.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<!--This Application has been designed for 2 devices 1:desktop and the other Iphone 5,6 and is compatible with IE 9,10,11,Chrome and Firefox...-->
+	<section class="container">
+		<!--This is the Main Body For The Content-->
+		<header>
+			<section class="menuButton">
+				<i id="buttonEvent" class="fa fa-bars barsAlign"></i>
+			</section>
+			<span class="search"><a href="javascript:void(0);"><i class="fa fa-search searchAlign"></i></a></span>
+			<nav>
+				<!--Menu Will Be Displayed In Here-->
+				<ul id="menuItemsDisp" class="menuDisplay">
+					<li><a href="#">my music</a></li>
+					<li><a href="#">playlist</a></li>
+					<li><a href="#">new</a></li>
+					<li><a href="#">explore</a></li>
+				</ul>
+			</nav>
+
+		</header>
+		<section class="contentSection">
+			<!--Layout Contains The 2 Colums For Music options -->
+			<section class="dataLayout">
+				<section class="latestTrends">
+					<!--Row For Latest Trends Info-->
+					<div class="contentdisplay">
+						<h3 class="topHeading">New and Noteworthy</h3>
+						<a href="#"><img class="imageAlign" src="assets/images/2016newReleases.jpg" alt="newandNoteworthy"/></a>
+						<h4 class="bottomHeaderInfo">Kicking Off 2016 with these new hit tracks</h4>
+					</div>
+					<!--Second Row-->
+					<div class="contentrowDisp">
+						<h3 class="topHeading">Pre-Order New Music</h3>
+						<a href="#"><img class="imageAlign" src="assets/images/preorder.jpg" alt="newandNoteworthy"/></a>
+						<h4 class="bottomHeaderInfo">Available February and March 2016</h4>
+					</div>
+					<!--end-->
+
+
+				</section>
+				<section class="searchandnewArtist">
+					<!--Row For Search and New Singers List and order-->
+
+					<div class="BestArtistcontentdisplay">
+						<h3 class="topHeading">Best of 2015</h3>
+						<a href="#"><img class="imageAlign" src="assets/images/2015music.jpg" alt="newandNoteworthy"/></a>
+						<h4 class="bottomHeaderInfo">Rewind last year's best hits</h4>
+					</div>
+					<!--Second Row-->
+					<div class="preOrderDisp">
+						<h3 class="topHeading">New Artist Spotlight</h3>
+						<a href="#"><img class="imageAlign" src="assets/images/artist.jpg" alt="newandNoteworthy"/></a>
+						<h4 class="bottomHeaderInfo">Hear some of the newest hits of January 2016</h4>
+					</div>
+					<!--end-->
+
+
+
+				</section>
+			</section>
+			<!--Make Use Of Ajax Calls To pull Data From JSON-->
+			<aside id="MoredataDisp" class="topSongs">
+				<h2 class="songListHeading">Top Songs</h2>
+				<div id="ajaxSongs" class="songListData">
+					<button id="floatButtonAlign"><i id="changeclass" class="fa fa-chevron-down"></i></button>
+					<ul class="favouiteList">
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+						<a href="javascript:void(0);"><li class="bookInfo"></li></a>
+
+					</ul>
+					<button id="floatButtonAlignTop"><i id="changeclassOne" class="fa fa-chevron-up"></i></button>
+
+				</div>
+				<!--Most favourite Songs Info .This  Data will be displayed using Ajax Calls-->
+			</aside>
+		</section>
+		<div class="clear"></div>
+		<footer>
+			<section class="footerContent">
+				<h3 class="footerHeading">Copyright &copy;2016 ,All rights reserved.</h3>
+				<ul class="footerContactList">
+					<li><a href="javascript:void(0);">Contact Us</a></li>
+					<li><a href="javascript:void(0);">Privacy & Cookies</a></li>
+					<li><a href="javascript:void(0);">Terms of Use</a></li>
+					<li><a href="javascript:void(0);">Sales and Refunds</a></li>
+					<li><a href="javascript:void(0);">Site Map</a></li>
+				</ul>
+				<!--Footer Info Will Be Displayed-->
+			</section>
+
+		</footer>
+
+
+
+	</section>
+	<script src="scripts/musicbrowser.min.js"></script>
+	<!---<script src="scripts/musicbrowser.js"></script>-->
+	<script src="scripts/musicData.json"></script>
+</body>
+
+</html>
