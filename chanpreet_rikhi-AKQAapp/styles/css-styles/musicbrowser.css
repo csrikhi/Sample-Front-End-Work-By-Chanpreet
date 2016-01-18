@@ -209,7 +209,7 @@
 .container .contentSection .topSongs .songListData #floatButtonAlign {
   display: block;
   width: 22.4em;
-  height: 67px;
+  height: 73px;
   position: relative;
   z-index: 14;
   top: 356px;
@@ -796,7 +796,7 @@
   }
   /* line 1029, ../sass/musicbrowser.scss */
   .container .contentSection .topSongs .songListData #floatButtonAlign {
-    display: none;
+    display: none !important;
   }
   /* line 1034, ../sass/musicbrowser.scss */
   .container .contentSection .topSongs .songListData #floatButtonAlignTop {
