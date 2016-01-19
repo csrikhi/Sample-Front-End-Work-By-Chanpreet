@@ -13,12 +13,17 @@
 
 */
 
+
+
 var pageDataDisplay = (function() {/*Menu Display Bar Button*/
 	var barClick = document.getElementById("buttonEvent");
 	var menuListDisp = document.getElementById("menuItemsDisp");
 	var ajaxSongs = document.getElementById("ajaxSongs");
     //ajaxSongs.value="Error";
     /*Menu Display Function for Mobile Approach*/
+
+
+
     var menuDisplayData = function() {
     	if (barClick) {
     		barClick.addEventListener("click", function() {
@@ -45,10 +50,10 @@ var pageDataDisplay = (function() {/*Menu Display Bar Button*/
         }
         if (floatButtonAlignTop) {
         	floatButtonAlignTop.addEventListener("click", function() {
-        		MoredataDisp.style.height = "524px";
+        		MoredataDisp.style.height = "600px";
         		floatButtonAlignTop.style.display = "none";
         		floatButtonAlign.style.display = "block";
-        		floatButtonAlign.style.top = "356px";
+        		floatButtonAlign.style.top = "390px";
         	});
 
 
@@ -56,6 +61,8 @@ var pageDataDisplay = (function() {/*Menu Display Bar Button*/
 
 
     };
+
+
     /*Ajax  Javascript request for Mobile and Desktop Approach */
     var musicdataAjaxDisplay = function() {/*Ajax Request To Pull THe data*/
     	/*Ajax Call Being Made*/
@@ -82,12 +89,9 @@ var pageDataDisplay = (function() {/*Menu Display Bar Button*/
         	if (mygetrequest.readyState == 4) {
         		if (mygetrequest.status == 200 || window.location.href.indexOf("http") == -1) {
         			var jsondata = JSON.parse(mygetrequest.responseText);
-                    //retrieve result as an JavaScript object
-                    //console.log(jsondata);
-                    //console.log(typeof(jsondata));
+
                     var rssentries = jsondata;
                     for (var i = 0; i < rssentries.length; i++) {
-                    	console.log(rssentries[i].Title);
 
 
                     }
@@ -100,8 +104,7 @@ var pageDataDisplay = (function() {/*Menu Display Bar Button*/
                         song = '<div class="songsInfoAlign">' + rssentries[x].Title + '<div>';
                         author = '<div class="singerInfoAlign">' + rssentries[x].Author + '<div>';
                         imageSet = '<img  class="songImageAlign" src="' + path + '" alt="some Img">';
-                        //console.log(imageSet);
-                        //ImageDisp[i].innerHTML=imageSet;   
+
                         ImageDisp[x].innerHTML = imageSet + song + author;
                         //singerInfo[x].innerHTML=author;
                         //titleInfo[x].innerHTML=song;
@@ -117,8 +120,6 @@ var pageDataDisplay = (function() {/*Menu Display Bar Button*/
                 }
             }
         }
-
-
 
 
     };
