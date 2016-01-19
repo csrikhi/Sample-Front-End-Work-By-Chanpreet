@@ -1,0 +1,888 @@
+@font-face {
+  font-family: "sanFranciscofont";
+  src: url("assets/fonts/sanfranciscodisplay-regular-webfont.eot?") format("eot"), url("assets/fonts/sanfranciscodisplay-regular-webfont.svg") format("svg");
+}
+/* line 103, ../sass/musicbrowser.scss */
+.container {
+  margin: 0 auto;
+  background: #1E1F22;
+  height: auto;
+  font-family: "sanFranciscofont", sans-serif;
+}
+/* line 111, ../sass/musicbrowser.scss */
+.container header {
+  position: relative;
+  background: #313236;
+  overflow: hidden;
+}
+/* line 116, ../sass/musicbrowser.scss */
+.container header .menuButton {
+  height: 4em;
+  display: inline-block;
+  margin: 0 auto;
+  margin-left: 1em;
+}
+/* line 123, ../sass/musicbrowser.scss */
+.container header .menuButton .barsAlign {
+  margin-top: 13px;
+  font-size: 2em;
+  margin-left: 17px;
+  color: #fff;
+  cursor: pointer;
+}
+/* line 138, ../sass/musicbrowser.scss */
+.container header .search .searchAlign {
+  color: #fff;
+  font-size: 25px;
+  float: right;
+  margin-top: 16px;
+  margin-right: 1em;
+}
+/* line 150, ../sass/musicbrowser.scss */
+.container header nav {
+  overflow: hidden;
+}
+/* line 152, ../sass/musicbrowser.scss */
+.container header nav .menuDisplay {
+  background: #62A8F0;
+  display: none;
+}
+/* line 155, ../sass/musicbrowser.scss */
+.container header nav .menuDisplay > .searchButton {
+  display: none !important;
+}
+/* line 160, ../sass/musicbrowser.scss */
+.container header nav .menuDisplay li {
+  border: 1px solid #1E1F22;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* line 168, ../sass/musicbrowser.scss */
+.container header nav .menuDisplay li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 185, ../sass/musicbrowser.scss */
+.container .contentSection {
+  overflow: hidden;
+  background: #1E1F22;
+  margin: 0 auto;
+}
+/* line 193, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout {
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+/* line 195, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends {
+  margin: 0 auto;
+}
+/* line 197, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentdisplay {
+  margin: 0 auto;
+}
+/* line 199, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentdisplay .topHeading {
+  color: #64ADF6;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 12px;
+}
+/* line 203, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentdisplay .imageAlign {
+  margin: 7px;
+  width: 19em;
+  height: 228px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+/* line 210, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentdisplay .bottomHeaderInfo {
+  color: #fff;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+/* line 217, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentrowDisp .topHeading {
+  color: #64ADF6;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 12px;
+}
+/* line 221, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentrowDisp .imageAlign {
+  margin: 7px;
+  width: 19em;
+  height: 228px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+/* line 226, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .latestTrends .contentrowDisp .bottomHeaderInfo {
+  color: #fff;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 1em;
+  margin-left: 2em;
+  font-size: 15px;
+}
+/* line 242, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .topHeading {
+  color: #64ADF6;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 12px;
+}
+/* line 246, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .imageAlign {
+  width: 19em;
+  height: 228px;
+  margin-left: 7px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+/* line 253, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .bottomHeaderInfo {
+  color: #fff;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+/* line 264, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .topHeading {
+  color: #64ADF6;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: left;
+  margin-left: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 12px;
+}
+/* line 268, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .imageAlign {
+  width: 19em;
+  height: 228px;
+  margin-left: 7px;
+  box-shadow: 3px 3px 3px 3px black;
+}
+/* line 275, ../sass/musicbrowser.scss */
+.container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .bottomHeaderInfo {
+  color: #fff;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  margin-top: 1em;
+  margin-left: 2em;
+}
+/* line 293, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs {
+  background: #151517;
+  height: 600px;
+  overflow: hidden;
+  margin: 7px;
+}
+/* line 295, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListHeading {
+  color: #fff;
+  font-family: "sanFranciscofont", sans-serif;
+  font-size: 25px;
+  margin-top: 2em;
+  border-bottom: 2px solid #333335;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  width: 10em;
+  margin-bottom: 1em;
+}
+/* line 300, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData #floatButtonAlign {
+  display: block;
+  width: 22.8em;
+  height: 84px;
+  position: relative;
+  z-index: 14;
+  top: 390px;
+  overflow: hidden;
+  background: #151517;
+  color: #64ADF6;
+  border: none;
+}
+/* line 314, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData #floatButtonAlignTop {
+  display: none;
+  width: 22.4em;
+  height: 67px;
+  background: #151517;
+  color: #64ADF6;
+  border: none;
+}
+/* line 325, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList {
+  margin-top: -0.1em;
+}
+/* line 327, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList a {
+  text-decoration: none !important;
+  color: #64ADF6;
+}
+/* line 330, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList a .bookInfo {
+  list-style-type: none;
+  margin-left: 1em;
+  line-height: 15px;
+}
+/* line 335, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songsInfoAlign {
+  color: #64ADF6;
+  display: inline;
+  position: relative;
+  top: -43px;
+  font-size: 17px;
+  margin-left: 1em;
+  text-decoration: none;
+}
+/* line 344, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList a .bookInfo .singerInfoAlign {
+  color: #fff;
+  display: inline;
+  position: relative;
+  top: 16px;
+  margin-left: 4.5em;
+  font-size: 17px;
+  text-decoration: none;
+}
+/* line 357, ../sass/musicbrowser.scss */
+.container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songImageAlign {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 2px 2px #000;
+}
+/* line 382, ../sass/musicbrowser.scss */
+.container .clear {
+  clear: both;
+}
+/* line 387, ../sass/musicbrowser.scss */
+.container footer {
+  cursor: pointer;
+  height: 190px;
+}
+/* line 390, ../sass/musicbrowser.scss */
+.container footer .footerHeading {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 3em;
+  font-family: "sanFranciscofont", sans-serif;
+}
+/* line 395, ../sass/musicbrowser.scss */
+.container footer .footerContactList li {
+  list-style-type: none;
+  color: #64ADF6;
+  font-family: "sanFranciscofont", sans-serif;
+  line-height: 23px;
+  line-height: 32px;
+  text-align: center;
+}
+/* line 398, ../sass/musicbrowser.scss */
+.container footer .footerContactList li a {
+  color: #64ADF6;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
+  /* line 434, ../sass/musicbrowser.scss */
+  .container header .search {
+    margin-left: 3em;
+  }
+  /* line 443, ../sass/musicbrowser.scss */
+  .container .contentSection {
+    overflow: hidden;
+    background: #1E1F22;
+  }
+  /* line 450, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout {
+    margin: 0 auto;
+    margin-bottom: 4em;
+  }
+  /* line 452, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends {
+    margin: 0 auto;
+  }
+  /* line 459, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .imageAlign {
+    margin-left: 9px;
+    width: 22em;
+  }
+  /* line 463, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 478, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .imageAlign {
+    margin-left: 9px;
+    width: 22em;
+  }
+  /* line 482, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 500, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .imageAlign {
+    margin-left: 9px;
+    width: 22em;
+  }
+  /* line 504, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 522, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .imageAlign {
+    margin-left: 9px;
+    width: 22em;
+  }
+  /* line 526, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 545, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs {
+    background: #151517;
+    height: 600px;
+    overflow: hidden;
+    margin: 7px;
+    height: 550px;
+  }
+  /* line 548, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListHeading {
+    color: #fff;
+    font-family: "sanFranciscofont", sans-serif;
+    font-size: 25px;
+    margin-top: 2em;
+    border-bottom: 2px solid #333335;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+    width: 12em;
+    margin-left: 26px;
+  }
+  /* line 553, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData {
+    margin-left: 1.5em;
+  }
+  /* line 555, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlign {
+    width: 27em;
+    left: -24px;
+    top: 360px;
+  }
+  /* line 561, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlignTop {
+    width: 27em;
+    left: -24px;
+  }
+  /* line 567, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList {
+    margin-top: 0.1em;
+  }
+  /* line 569, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a {
+    text-decoration: none !important;
+    color: #64ADF6;
+  }
+  /* line 572, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo {
+    list-style-type: none;
+    margin-left: 1em;
+    line-height: 15px;
+  }
+  /* line 577, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songsInfoAlign {
+    color: #64ADF6;
+    display: inline;
+    position: relative;
+    top: -43px;
+    font-size: 17px;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+  /* line 586, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .singerInfoAlign {
+    color: #fff;
+    display: inline;
+    position: relative;
+    top: 16px;
+    margin-left: 4.5em;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  /* line 599, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songImageAlign {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px #000;
+  }
+  /* line 623, ../sass/musicbrowser.scss */
+  .container .clear {
+    clear: both;
+  }
+}
+/**/
+/**/
+/**/
+/**/
+@media only screen and (min-width: 400px) and (max-width: 1200px) and (orientation: portrait) {
+  /* line 683, ../sass/musicbrowser.scss */
+  .container header .search {
+    margin-left: 3em;
+  }
+  /* line 692, ../sass/musicbrowser.scss */
+  .container .contentSection {
+    overflow: hidden;
+    background: #1E1F22;
+  }
+  /* line 699, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout {
+    margin: 0 auto;
+    margin-bottom: 4em;
+  }
+  /* line 701, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends {
+    margin: 0 auto;
+  }
+  /* line 708, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .imageAlign {
+    margin-left: 9px;
+    width: 96%;
+    height: 16em;
+  }
+  /* line 713, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-left: 2em;
+  }
+  /* line 729, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .imageAlign {
+    margin-left: 9px;
+    width: 96%;
+    height: 16em;
+  }
+  /* line 734, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 752, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .imageAlign {
+    margin-left: 9px;
+    width: 96%;
+    height: 16em;
+  }
+  /* line 757, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 775, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .imageAlign {
+    margin-left: 9px;
+    width: 96%;
+    height: 16em;
+  }
+  /* line 780, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .bottomHeaderInfo {
+    font-size: 20px;
+    width: 15em;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+  /* line 799, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs {
+    background: #151517;
+    height: 600px;
+    overflow: hidden;
+    margin: 7px;
+    height: 550px;
+  }
+  /* line 802, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListHeading {
+    color: #fff;
+    font-family: "sanFranciscofont", sans-serif;
+    font-size: 25px;
+    margin-top: 2em;
+    border-bottom: 2px solid #333335;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+    width: 12em;
+    margin-left: 26px;
+  }
+  /* line 807, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData {
+    margin-left: 1.5em;
+  }
+  /* line 809, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlign {
+    width: 27em;
+    left: -24px;
+  }
+  /* line 814, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlignTop {
+    width: 27em;
+    left: -24px;
+  }
+  /* line 820, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList {
+    margin-top: 0.1em;
+  }
+  /* line 822, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a {
+    text-decoration: none !important;
+    color: #64ADF6;
+  }
+  /* line 825, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo {
+    list-style-type: none;
+    margin-left: 1em;
+    line-height: 15px;
+  }
+  /* line 830, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songsInfoAlign {
+    color: #64ADF6;
+    display: inline;
+    position: relative;
+    top: -43px;
+    font-size: 17px;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+  /* line 839, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .singerInfoAlign {
+    color: #fff;
+    display: inline;
+    position: relative;
+    top: 16px;
+    margin-left: 4.5em;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  /* line 852, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songImageAlign {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px #000;
+  }
+  /* line 876, ../sass/musicbrowser.scss */
+  .container .clear {
+    clear: both;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1600px) and (orientation: landscape) {
+  /* line 894, ../sass/musicbrowser.scss */
+  .container header .menuButton {
+    display: none !important;
+  }
+  /* line 896, ../sass/musicbrowser.scss */
+  .container header .menuButton .barsAlign {
+    display: none;
+  }
+  /* line 901, ../sass/musicbrowser.scss */
+  .container header nav {
+    display: block !important;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /* line 905, ../sass/musicbrowser.scss */
+  .container header nav .menuDisplay {
+    display: inline-block !important;
+    background: none;
+  }
+  /* line 910, ../sass/musicbrowser.scss */
+  .container header nav .menuDisplay > .searchButton {
+    display: block !important;
+  }
+  /* line 916, ../sass/musicbrowser.scss */
+  .container header nav .menuDisplay li {
+    border: none;
+    float: left;
+    text-transform: lowercase;
+    cursor: pointer;
+    color: #fff;
+    margin-right: 2em;
+  }
+  /* line 931, ../sass/musicbrowser.scss */
+  .container header .search {
+    float: right;
+    margin-top: 12px;
+    margin-right: 21em;
+    display: none !important;
+  }
+  /* line 936, ../sass/musicbrowser.scss */
+  .container header .search .searchAlign {
+    font-size: 21px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 2em;
+    display: none !important;
+  }
+  /* line 947, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout {
+    overflow: hidden;
+    float: left;
+    width: 70%;
+    padding-bottom: 20px;
+  }
+  /* line 953, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends {
+    padding-left: 2em;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+  }
+  /* line 960, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay {
+    float: left;
+  }
+  /* line 962, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .topHeading {
+    margin-left: 5px;
+  }
+  /* line 965, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .imageAlign {
+    width: 24em;
+    margin-right: 2em;
+    box-shadow: 3px 3px 3px 3px black;
+  }
+  /* line 970, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentdisplay .bottomHeaderInfo {
+    width: 19em;
+    font-size: 17px;
+    margin-left: 8px;
+  }
+  /* line 977, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp {
+    float: left;
+  }
+  /* line 979, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .topHeading {
+    margin-left: 5px;
+  }
+  /* line 983, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .imageAlign {
+    width: 24em;
+    box-shadow: 3px 3px 3px 3px black;
+  }
+  /* line 987, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .latestTrends .contentrowDisp .bottomHeaderInfo {
+    font-size: 17px;
+    width: 16em;
+    margin-left: 8px;
+  }
+  /* line 999, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist {
+    display: block;
+    padding-left: 2em;
+    overflow: hidden;
+  }
+  /* line 1004, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay {
+    float: left;
+    margin-right: 0em;
+  }
+  /* line 1007, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .topHeading {
+    margin-left: 5px;
+  }
+  /* line 1010, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .imageAlign {
+    width: 24em;
+    margin-right: 2em;
+    box-shadow: 3px 3px 3px 3px black;
+  }
+  /* line 1015, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .BestArtistcontentdisplay .bottomHeaderInfo {
+    width: 16em;
+    font-size: 17px;
+    margin-left: 8px;
+  }
+  /* line 1024, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp {
+    float: left;
+  }
+  /* line 1027, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .topHeading {
+    margin-left: 5px;
+  }
+  /* line 1031, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .imageAlign {
+    width: 24em;
+    box-shadow: 3px 3px 3px 3px black;
+  }
+  /* line 1035, ../sass/musicbrowser.scss */
+  .container .contentSection .dataLayout .searchandnewArtist .preOrderDisp .bottomHeaderInfo {
+    width: 21em;
+    font-size: 17px;
+    margin-left: 8px;
+  }
+  /* line 1048, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs {
+    float: left;
+    width: 30%;
+    background: #151517;
+    height: 600px;
+    overflow: hidden;
+    margin: 7px;
+    height: auto !important;
+    margin: 0px;
+    border: none;
+    background: #1E1F22;
+  }
+  /* line 1057, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListHeading {
+    color: #fff;
+    font-family: "sanFranciscofont", sans-serif;
+    font-size: 25px;
+    margin-top: 2em;
+    border-bottom: 2px solid #333335;
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 2em;
+    padding-bottom: 1em;
+    width: 10em;
+    margin-bottom: 1em;
+  }
+  /* line 1062, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlign {
+    display: none !important;
+  }
+  /* line 1067, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData #floatButtonAlignTop {
+    display: none !important;
+  }
+  /* line 1072, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList {
+    margin-top: 2em;
+    padding-bottom: -moz-calc(3.1em);
+  }
+  /* line 1075, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a {
+    text-decoration: none !important;
+    color: #64ADF6;
+  }
+  /* line 1080, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo {
+    list-style-type: none;
+    margin-left: 1em;
+    line-height: 4.5px;
+    margin-bottom: 1.2em;
+    display: block !important;
+  }
+  /* line 1088, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songsInfoAlign {
+    color: #64ADF6;
+    display: inline;
+    position: relative;
+    top: -43px;
+    font-size: 17px;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+  /* line 1097, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .singerInfoAlign {
+    color: #fff;
+    display: inline;
+    position: relative;
+    top: 16px;
+    margin-left: 4.5em;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  /* line 1110, ../sass/musicbrowser.scss */
+  .container .contentSection .topSongs .songListData .favouiteList a .bookInfo .songImageAlign {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 4px 3px #000;
+  }
+  /* line 1132, ../sass/musicbrowser.scss */
+  .container .clear {
+    clear: both;
+  }
+  /* line 1137, ../sass/musicbrowser.scss */
+  .container footer {
+    overflow: hidden;
+    height: 50px;
+  }
+  /* line 1141, ../sass/musicbrowser.scss */
+  .container footer .footerContent .footerHeading {
+    font-family: "sanFranciscofont", sans-serif;
+    margin-top: 1.5em;
+    font-size: 12px;
+    float: left;
+    display: inline-block;
+    width: 17em;
+    margin-left: 25em;
+  }
+  /* line 1152, ../sass/musicbrowser.scss */
+  .container footer .footerContent .footerContactList {
+    float: right;
+    display: inline-block;
+    width: 45em;
+    margin-top: 7px;
+    overflow: hidden;
+    margin-right: 1em;
+  }
+  /* line 1159, ../sass/musicbrowser.scss */
+  .container footer .footerContent .footerContactList li {
+    font-size: 12px;
+    font-family: "sanFranciscofont", sans-serif;
+    float: left;
+    margin-right: 3em;
+  }
+}
