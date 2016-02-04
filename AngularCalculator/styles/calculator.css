@@ -1,0 +1,74 @@
+@font-face {
+	font-family:'calciFont';
+	src: url('../assets/digital-7/digital-7.ttf') format('truetype');
+} 
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;	
+}
+.container{
+	margin: 0 auto;
+	background: red;
+	width: 700px;
+	overflow: hidden;
+	height: 800px;
+	padding-top: 58px;
+}
+.calciContent{
+	border: 6px solid black;
+	margin: 0 auto;
+	width: 411px;
+	height: 299px;
+	background: #ccc;
+	overflow: hidden;
+}
+.displayArea{
+	background: black;
+	border: 2px solid #ccc;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 37px;
+	font-family: 'calciFont';
+	color: blue;
+	padding-top: 8px;
+	padding-left: 10px;
+}
+.operationSymbol{
+	height: 30px;
+	border: 1px solid blue;
+	width: 27px;
+	float: right;
+	text-align: center;
+
+}
+.buttonArea{
+	width:100%;
+	border:1px solid #ccc;
+	margin:0 auto;
+}
+.digits{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	margin-top: 7px;
+	margin-left: 2px;
+
+}
+.numberButton{
+	width: 76px;
+	height: 49px;
+	background: #ccc;
+	font-family: 'sans-srif';
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 5px;
+	cursor:pointer;
+
+}
+
+.buttonZero{
+	width: 60%;
+
+}

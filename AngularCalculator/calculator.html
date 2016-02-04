@@ -1,0 +1,50 @@
+<!Doctype html>
+<html ng-app="angCalci">
+
+<head>
+	<title>Angular Calci</title>
+	<link rel="stylesheet" type="text/css" href="styles/calculator.css" />
+	<link rel="stylesheet" </head>
+
+	<body>
+		<section class="container">
+			<!--decimals="4" decimal-point="."-->
+			<section class="calciContent" ng-controller="calculatorArea">
+				<section class="displayArea" name="displayContent">
+					{{output|number:4}}{{Error}}
+					<div class="operationSymbol">{{operator}}</div>
+				</section>
+				<section class="buttonsArea">
+					<section class="digits">
+						<button name="btn1" class="numberButton" value="1" ng-click="dataInput(1)">1</button>
+						<button name="btn2" class="numberButton" ng-click="dataInput(2)" value="2">2</button>
+						<button name="btn3" class="numberButton" ng-click="dataInput(3)" value="3">3</button>
+						<button name="btnAdd" class="numberButton" ng-click="add()" value="+">+</button>
+						<button name="btnSub" class="numberButton" ng-click="sub()" value="-">-</button>
+						<br>
+						<button name="btn4" class="numberButton" ng-click="dataInput(4)" value="4">4</button>
+						<button name="btn5" class="numberButton" ng-click="dataInput(5)" value="5">5</button>
+						<button name="btn6" class="numberButton" ng-click="dataInput(6)" value="6">6</button>
+						<button name="btnMul" class="numberButton" ng-click="mul()" value="*">*</button>
+						<button name="btnDiv" class="numberButton" ng-click="div()" value="/">/</button>
+						<br>
+						<button name="btn7" class="numberButton" ng-click="dataInput(7)" value="7">7</button>
+						<button name="btn8" class="numberButton" ng-click="dataInput(8)" value="8">8</button>
+						<button name="btn9" class="numberButton" ng-click="dataInput(9)" value="9">9</button>
+						<button name="btnDecimal" class="numberButton" ng-click="dataInput('.')" value=".">.</button>
+						<button name="btnResult" class="numberButton" ng-click="calculate()" value="=">=</button>
+						<br>
+						<button name="btn0" class="numberButton buttonZero" ng-click="dataInput(0)" value="0">0</button>
+						<button name="btnClear" class="numberButton" ng-click="clear()" value="C">C</button>
+					</section>
+				</section>
+			</section>
+		</section>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+
+		<script src="scripts/calculator.js"></script>
+
+	</body>
+
+	</html>
