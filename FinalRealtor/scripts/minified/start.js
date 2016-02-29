@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".full-width").fullWidth().on("fws.start",function(o,t){console.log("Moving "+t.direction+" from slide "+t.status.previous+" to slide "+t.status.current)}).on("fws.finish",function(o,t){console.log("Moved from slide "+t.status.previous+" to slide "+t.status.current)})});

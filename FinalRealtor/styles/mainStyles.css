@@ -1,0 +1,473 @@
+/************Style Guides ***********/
+/********************/
+.mainContainer {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1200px; }
+
+.slideImageAlign {
+  width: 292px;
+  height: 289px; }
+
+.parentContainer {
+  width: 100%;
+  background: url("../assets/mobileBackground.png");
+  width: 100%;
+  background-size: 100% 469px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: auto; }
+  .parentContainer header {
+    width: 100%;
+    height: 56px;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden; }
+    .parentContainer header nav.navprop .LogoImageAlign {
+      height: 31px;
+      width: 174px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 11px;
+      margin-bottom: 13px; }
+  .parentContainer section.banner {
+    width: 100%;
+    height: 412px;
+    overflow: hidden; }
+    .parentContainer section.banner .signUpForm {
+      width: 289px;
+      height: 363px;
+      border: 1px solid #e0dfde;
+      background: rgba(233, 234, 231, 0.7);
+      margin-bottom: 22px;
+      margin-left: 14px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 27px; }
+      .parentContainer section.banner .signUpForm .formIntro {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-color: black;
+        text-align: center;
+        margin-top: 29px; }
+        .parentContainer section.banner .signUpForm .formIntro .regSymbol {
+          vertical-align: top;
+          font-size: 0.6em; }
+      .parentContainer section.banner .signUpForm .signUpAlert {
+        font-family: 'Helvetica', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-color: black;
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 20px; }
+      .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList {
+        margin: 0 auto; }
+        .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList {
+          list-style-type: none;
+          margin-bottom: 7px;
+          text-align: center; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList .inputFieldAlign {
+            width: 264px;
+            height: 34px;
+            font-family: 'Helvetica', sans-serif;
+            font-size: 14px;
+            font-weight: normal;
+            border-radius: 6px;
+            padding-left: 11px;
+            box-sizing: border-box;
+            border: 1px inset #e0dfde;
+            background: white;
+            opacity: 1.0; }
+        .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates {
+          float: left; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates input[type="checkbox"] {
+            width: 15px;
+            /*Desired width*/
+            height: 15px;
+            /*Desired height*/
+            margin-left: 15px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates .infoAlign {
+            width: 239px;
+            font-size: 14px;
+            float: right;
+            font-family: 'Helvetica', sans-serif;
+            line-height: 19px; }
+      .parentContainer section.banner .signUpForm #formFillInfo .formSubmitButton {
+        background: #ee0d0d;
+        width: 260px;
+        font-size: 14px;
+        color: #fff;
+        height: 35px;
+        font-family: 'Helvetica', sans-serif;
+        margin: 0 auto;
+        position: relative;
+        display: block;
+        border: 1px groove #ee0d0d;
+        border-radius: 4px;
+        top: 13px;
+        cursor: pointer; }
+  .parentContainer section.content {
+    padding-top: 36px; }
+    .parentContainer section.content .messageBoxes {
+      margin: 0 auto; }
+      .parentContainer section.content .messageBoxes .messageboxDisplay {
+        display: block;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 50px; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay .messsageIconAlign {
+          display: block;
+          /* margin-bottom: 12px; */
+          width: 132px;
+          height: 125px;
+          margin: 0 auto;
+          display: block;
+          overflow: hidden;
+          margin-bottom: 35px; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay .messageHeadingAlign {
+          font-family: 'Helvetica', sans-serif;
+          font-weight: bold;
+          font-size: 24px;
+          color: #000;
+          display: block;
+          /* margin: 0 auto; */
+          text-align: center;
+          margin-bottom: 21px; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay .messageInfoAlign {
+          width: 282px;
+          text-align: center;
+          display: block;
+          margin: 0 auto;
+          font-size: 14px;
+          margin-bottom: 27px; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay .moreInfo {
+          display: block;
+          margin: 0 auto;
+          width: 116px;
+          height: 34px;
+          font-family: 'Helvetica', sans-serif;
+          font-size: 14px;
+          text-align: center;
+          border-radius: 4px;
+          background: #fff;
+          border: 1px groove #ccc;
+          cursor: pointer; }
+      .parentContainer section.content .messageBoxes .boxvisibility {
+        display: none; }
+  .parentContainer section.carouselArea {
+    width: 100%;
+    background: #eee;
+    height: 426px;
+    padding-top: 52px; }
+    .parentContainer section.carouselArea .carouselDisplay {
+      width: 292px;
+      height: 287px;
+      background: #a6a6a6;
+      text-align: center;
+      color: black;
+      overflow: hidden; }
+    .parentContainer section.carouselArea .naviCircle {
+      margin: 0 auto; }
+      .parentContainer section.carouselArea .naviCircle .dotAlign {
+        display: block;
+        margin: 0 auto;
+        margin-top: 26px; }
+  .parentContainer .featureArea .completeFeature {
+    width: 100%;
+    height: 402px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    display: block; }
+    .parentContainer .featureArea .completeFeature .firstFeature {
+      margin-top: 30px; }
+      .parentContainer .featureArea .completeFeature .firstFeature .featureBlock {
+        height: 200px;
+        width: 289px;
+        background: #a6a6a6;
+        margin: 0 auto;
+        margin-bottom: 33px; }
+      .parentContainer .featureArea .completeFeature .firstFeature .featureText .featureHeading {
+        text-align: center;
+        margin-bottom: 28px;
+        font-family: "Helvetica", sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: #000; }
+      .parentContainer .featureArea .completeFeature .firstFeature .featureText .featurePara {
+        text-align: left;
+        margin: 0 auto;
+        width: 267px;
+        font-size: 14px;
+        font-family: "Helvetica", sans-serif;
+        color: #000; }
+  .parentContainer .featureArea .secondCompleteFeature {
+    width: 100%;
+    height: 402px;
+    overflow: hidden;
+    display: block; }
+    .parentContainer .featureArea .secondCompleteFeature .secondFeature {
+      margin-top: 32px; }
+      .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureBlock {
+        height: 200px;
+        width: 289px;
+        background: #a6a6a6;
+        margin: 0 auto;
+        margin-bottom: 32px; }
+      .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featureHeading {
+        text-align: center;
+        margin-bottom: 28px;
+        font-family: "Helvetica", sans-serif;
+        font-weight: bold;
+        font-size: 24px;
+        color: #000; }
+      .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featurePara {
+        text-align: left;
+        margin: 0 auto;
+        width: 267px;
+        font-size: 14px;
+        font-family: "Helvetica", sans-serif;
+        color: #000; }
+  .parentContainer footer {
+    width: 100%;
+    height: 254px; }
+
+@media screen and (min-width: 768px) {
+  .slideImageAlign {
+    width: 292px;
+    height: 289px; }
+  .parentContainer {
+    background: url("../assets/background-image.jpg");
+    background-size: 100% 646px !important;
+    background-repeat: no-repeat;
+    height: auto; }
+    .parentContainer header nav.navprop {
+      overflow-x: hidden;
+      overflow-y: hidden; }
+      .parentContainer header nav.navprop .LogoImageAlign {
+        /* padding-left:28px !important;
+					 */
+        float: left !important;
+        margin-left: 28px; }
+    .parentContainer section.banner {
+      height: 589px;
+      width: 100%;
+      background-size: inherit; }
+      .parentContainer section.banner .signUpForm {
+        width: 600px;
+        height: 321px;
+        margin: 0 auto;
+        margin-top: 130px;
+        float: right; }
+        .parentContainer section.banner .signUpForm .formIntro {
+          font-size: 18px;
+          margin-top: 29px;
+          margin-left: 30px;
+          text-align: left; }
+        .parentContainer section.banner .signUpForm .signUpAlert {
+          font-size: 26px;
+          text-align: left;
+          margin-top: 14px;
+          margin-bottom: 20px;
+          margin-left: 30px; }
+        .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList {
+          margin-left: 29px;
+          width: 542px;
+          height: 117px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList .nameListAlign {
+            width: 262px;
+            float: left;
+            margin-left: 3px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList .lastNameAlign {
+            display: inline-block;
+            float: left;
+            margin-left: 10px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList .emailListAlign {
+            margin-top: 7px;
+            width: 537px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .inputDataList .phoneNumberAlign {
+            width: 537px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates input[type="checkbox"] {
+            margin-left: 6px; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates .checkpermission {
+            background: #fff;
+            float: left; }
+          .parentContainer section.banner .signUpForm #formFillInfo .inputfieldList .monthlyUpdates .infoAlign {
+            width: 310px; }
+        .parentContainer section.banner .signUpForm #formFillInfo .formSubmitButton {
+          width: 132px;
+          clear: both;
+          float: left;
+          margin-left: 34px; }
+    .parentContainer section.content {
+      overflow: hidden; }
+      .parentContainer section.content .messageBoxes {
+        display: block;
+        overflow: hidden; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay {
+          display: inline-block;
+          width: 32%; }
+        .parentContainer section.content .messageBoxes .boxvisibility {
+          display: inline-block; }
+    .parentContainer section.carouselArea {
+      /*  width:100%;
+        	background:#eee; */
+      height: 430px;
+      padding-top: 52px; }
+      .parentContainer section.carouselArea .carouselDisplay {
+        height: 290px;
+        background: #a6a6a6;
+        width: 600px; }
+    .parentContainer .featureArea .completeFeature {
+      height: 370px;
+      box-sizing: border-box; }
+      .parentContainer .featureArea .completeFeature .firstFeature {
+        width: 600px;
+        overflow: hidden; }
+        .parentContainer .featureArea .completeFeature .firstFeature .featureBlock {
+          float: left;
+          width: 43%;
+          height: 247px;
+          margin-right: 30px;
+          margin-bottom: 0;
+          display: inline-block; }
+        .parentContainer .featureArea .completeFeature .firstFeature .featureText {
+          float: left; }
+          .parentContainer .featureArea .completeFeature .firstFeature .featureText .featureHeading {
+            text-align: left;
+            color: #000; }
+          .parentContainer .featureArea .completeFeature .firstFeature .featureText .featurePara {
+            text-align: left;
+            margin: 0 auto;
+            width: 304px;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Helvetica", sans-serif; }
+    .parentContainer .featureArea .secondCompleteFeature {
+      width: 100%;
+      height: 384px;
+      overflow: hidden;
+      display: block;
+      background: #eee;
+      box-sizing: border-box; }
+      .parentContainer .featureArea .secondCompleteFeature .secondFeature {
+        width: 600px;
+        margin-top: 32px;
+        overflow: hidden; }
+        .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureBlock {
+          float: right;
+          width: 43%;
+          height: 247px;
+          margin-bottom: 0; }
+        .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText {
+          float: left; }
+          .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featureHeading {
+            text-align: left;
+            color: #000; }
+          .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featurePara {
+            text-align: left;
+            margin: 0 auto;
+            width: 304px;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Helvetica", sans-serif; }
+    .parentContainer footer {
+      height: 0px;
+      width: 100%; } }
+
+@media screen and (min-width: 1200px) {
+  .slideImageAlign {
+    width: 1200px;
+    height: 293px; }
+  .parentContainer {
+    margin: 0 auto;
+    background: url("../assets/background-image.jpg");
+    background-size: 100% 646px !important;
+    background-repeat: no-repeat;
+    height: auto; }
+    .parentContainer header nav.navprop .LogoImageAlign {
+      float: left;
+      margin-top: 11px;
+      margin-left: 0;
+      margin-bottom: 14px; }
+    .parentContainer section.banner {
+      height: 593px !important; }
+      .parentContainer section.banner .signUpForm {
+        float: right; }
+    .parentContainer section.content {
+      overflow: hidden; }
+      .parentContainer section.content .messageBoxes {
+        display: block;
+        overflow: hidden; }
+        .parentContainer section.content .messageBoxes .messageboxDisplay {
+          display: inline-block;
+          width: 32%; }
+        .parentContainer section.content .messageBoxes .boxvisibility {
+          display: inline-block; }
+    .parentContainer section.carouselArea {
+      /*  width:100%;
+        	background:#eee; */
+      height: 430px;
+      padding-top: 56px; }
+      .parentContainer section.carouselArea .carouselDisplay {
+        height: 290px;
+        background: #a6a6a6;
+        width: 1200px; }
+    .parentContainer .featureArea .completeFeature {
+      height: 370px;
+      box-sizing: border-box;
+      overflow: hidden; }
+      .parentContainer .featureArea .completeFeature .firstFeature {
+        width: 1200px;
+        overflow: hidden; }
+        .parentContainer .featureArea .completeFeature .firstFeature .featureBlock {
+          float: left;
+          width: 488px;
+          height: 250px;
+          margin-right: 30px;
+          margin-bottom: 0; }
+        .parentContainer .featureArea .completeFeature .firstFeature .featureText {
+          float: left; }
+          .parentContainer .featureArea .completeFeature .firstFeature .featureText .featureHeading {
+            text-align: left;
+            color: #000; }
+          .parentContainer .featureArea .completeFeature .firstFeature .featureText .featurePara {
+            text-align: left;
+            margin: 0 auto;
+            width: 628px;
+            font-size: 22px;
+            line-height: 26px;
+            font-family: "Helvetica", sans-serif; }
+    .parentContainer .featureArea .secondCompleteFeature {
+      width: 100%;
+      height: 384px;
+      overflow: hidden;
+      display: block;
+      background: #eee;
+      box-sizing: border-box; }
+      .parentContainer .featureArea .secondCompleteFeature .secondFeature {
+        width: 1200px;
+        margin-top: 32px;
+        overflow: hidden; }
+        .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureBlock {
+          float: right;
+          width: 488px;
+          height: 250px;
+          margin-bottom: 0; }
+        .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText {
+          float: left; }
+          .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featureHeading {
+            text-align: left;
+            color: #000; }
+          .parentContainer .featureArea .secondCompleteFeature .secondFeature .featureText .featurePara {
+            text-align: left;
+            margin: 0 auto;
+            width: 666px;
+            font-size: 22px;
+            line-height: 26px;
+            font-family: "Helvetica", sans-serif; }
+    .parentContainer footer {
+      height: 0px;
+      width: 100%; } }

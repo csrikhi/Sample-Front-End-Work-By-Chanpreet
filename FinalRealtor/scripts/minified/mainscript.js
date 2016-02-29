@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".full-width ").fullWidth().on("fws.start",function(n,f){}).on("fws.finish",function(n,f){})});

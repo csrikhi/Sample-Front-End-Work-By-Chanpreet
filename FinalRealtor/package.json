@@ -1,0 +1,42 @@
+{
+	"name": "csrportfolio",
+	"version": "1.0.0",
+	"description": "This is a Portfolio by Chanpreet S Rikhi",
+	"main": "portfolioscripts.js",
+	"scripts": {
+		"test": "Welcome User",
+		"start": " http-server -a 127.0.0.1 -p 8080 -o",
+		"livereload": "live-reload --port 8080 dist/"
+		},
+		"repository": {
+			"type": "git",
+			"url": "git+https://github.com/csrikhi/Sample-Front-End-Work-By-Chanpreet.git"
+			},
+			"author": "csrikhi",
+			"license": "ISC",
+			"bugs": {
+				"url": "https://github.com/csrikhi/Sample-Front-End-Work-By-Chanpreet/issues"
+				},
+				"homepage": "https://github.com/csrikhi/Sample-Front-End-Work-By-Chanpreet#readme",
+				"devDependencies": {
+					"grunt": "^0.4.5",
+					"grunt-contrib-jshint": "^0.12.0",
+					"gulp": "^3.9.0",
+					"gulp-clean": "^0.3.1",
+					"gulp-compass": "^2.1.0",
+					"gulp-concat": "^2.6.0",
+					"gulp-cssbeautify": "^0.1.3",
+					"gulp-jshint": "^2.0.0",
+					"gulp-livereload": "^3.8.1",
+					"gulp-minify": "0.0.5",
+					"gulp-minify-css": "^1.2.3",
+					"gulp-notify": "^2.2.0",
+					"gulp-rename": "^1.2.2",
+					"gulp-ruby-sass": "^2.0.6",
+					"gulp-sass": "^2.1.1",
+					"gulp-uglify": "^1.5.1",
+					"gulp-webserver": "^0.9.1",
+					"http-server": "^0.8.5",
+					"jshint": "^2.9.1"
+				}
+			}

@@ -1,0 +1,74 @@
+@mixin contentStylesAlign{
+	.messageBoxes{
+		//display:block;
+		margin:0 auto;
+		.messageboxDisplay{
+			display: block;
+			margin: 0 auto;
+			overflow: hidden;
+			margin-bottom: 50px;
+			.messsageIconAlign{
+				display: block;
+    /* margin-bottom: 12px; */
+    
+    width: 132px;
+    height: 125px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 35px;
+
+
+}
+.messageHeadingAlign{
+	font-family: 'Helvetica', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	color: #000;
+	display: block;
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom:21px;
+
+
+
+}
+.messageInfoAlign{
+	width: 282px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-size: 14px;
+	margin-bottom: 27px;
+
+
+}
+.moreInfo{
+	display: block;
+	margin: 0 auto;
+	width: 116px;
+	height: 34px;
+	font-family: 'Helvetica', sans-serif;
+	font-size:14px;
+	text-align:center;
+	border-radius: 4px;
+	background: #fff;
+	border: 1px groove #ccc;
+	cursor:pointer;
+
+
+}
+
+
+}
+.boxvisibility{
+	
+	display:none;
+}
+
+}
+
+
+
+
+}
